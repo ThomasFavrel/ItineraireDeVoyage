@@ -1,0 +1,879 @@
+{
+  "@id": "https://data.datatourisme.fr/54/fffd79d9-2b75-3e19-9845-6bf2c2c97ac0",
+  "dc:identifier": "5710-fraicheur-des-hauts",
+  "@type": [
+    "schema:FoodEstablishment",
+    "schema:Restaurant",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Fraîcheur des Hauts"
+    ]
+  },
+  "allowedPersons": 60,
+  "availableLanguage": [
+    "fr,en"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/c96f747e-0631-3a48-addc-244e33cbe13c",
+    "schema:familyName": [
+      "Soubik"
+    ],
+    "schema:givenName": [
+      "Soubik"
+    ],
+    "schema:legalName": "Soubik",
+    "@type": [
+      "schema:Organization",
+      "schema:Person",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/3c97db2f-6811-3bbb-9221-548337e0e971",
+      "schema:legalName": "ADT Réunion",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.fr/94ec81de-1b50-3a95-829c-ebb618048b3d",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/edc8355e-2dfe-30de-9231-38854a75cace",
+          "schema:addressLocality": "Salazie",
+          "schema:postalCode": "97433",
+          "schema:streetAddress": [
+            "57 rue du Père Louis Manuel"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97421",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Salazie"
+              ],
+              "fr": [
+                "Salazie"
+              ]
+            },
+            "insee": "97421",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "giovanny.virapin5@gmail.com"
+      ],
+      "schema:legalName": "Fraîcheur des Hauts",
+      "schema:telephone": [
+        "+33 2 62 53 27 04"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "53433656500021"
+    }
+  ],
+  "hasCommunicationContact": [
+    {
+      "@id": "https://data.datatourisme.fr/94ec81de-1b50-3a95-829c-ebb618048b3d",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/edc8355e-2dfe-30de-9231-38854a75cace",
+          "schema:addressLocality": "Salazie",
+          "schema:postalCode": "97433",
+          "schema:streetAddress": [
+            "57 rue du Père Louis Manuel"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97421",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Salazie"
+              ],
+              "fr": [
+                "Salazie"
+              ]
+            },
+            "insee": "97421",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "giovanny.virapin5@gmail.com"
+      ],
+      "schema:legalName": "Fraîcheur des Hauts",
+      "schema:telephone": [
+        "+33 2 62 53 27 04"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "53433656500021"
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/94ec81de-1b50-3a95-829c-ebb618048b3d",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/edc8355e-2dfe-30de-9231-38854a75cace",
+          "schema:addressLocality": "Salazie",
+          "schema:postalCode": "97433",
+          "schema:streetAddress": [
+            "57 rue du Père Louis Manuel"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97421",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Salazie"
+              ],
+              "fr": [
+                "Salazie"
+              ]
+            },
+            "insee": "97421",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "giovanny.virapin5@gmail.com"
+      ],
+      "schema:legalName": "Fraîcheur des Hauts",
+      "schema:telephone": [
+        "+33 2 62 53 27 04"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "53433656500021"
+    }
+  ],
+  "hasManagementContact": [
+    {
+      "@id": "https://data.datatourisme.fr/94ec81de-1b50-3a95-829c-ebb618048b3d",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/edc8355e-2dfe-30de-9231-38854a75cace",
+          "schema:addressLocality": "Salazie",
+          "schema:postalCode": "97433",
+          "schema:streetAddress": [
+            "57 rue du Père Louis Manuel"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97421",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Salazie"
+              ],
+              "fr": [
+                "Salazie"
+              ]
+            },
+            "insee": "97421",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "giovanny.virapin5@gmail.com"
+      ],
+      "schema:legalName": "Fraîcheur des Hauts",
+      "schema:telephone": [
+        "+33 2 62 53 27 04"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "53433656500021"
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:Downtown",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Im Stadtzentrum"
+        ],
+        "pt": [
+          "No centro da cidade"
+        ],
+        "en": [
+          "Downtown"
+        ],
+        "it": [
+          "In centro città"
+        ],
+        "fr": [
+          "En centre ville"
+        ],
+        "nl": [
+          "In het centrum van de stad"
+        ],
+        "es": [
+          "En el centro de la ciudad"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Downtown",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Im Stadtzentrum"
+        ],
+        "pt": [
+          "No centro da cidade"
+        ],
+        "en": [
+          "Downtown"
+        ],
+        "it": [
+          "In centro città"
+        ],
+        "fr": [
+          "En centre ville"
+        ],
+        "nl": [
+          "In het centrum van de stad"
+        ],
+        "es": [
+          "En el centro de la ciudad"
+        ]
+      }
+    },
+    {
+      "@id": "kb:FrenchCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Französische regionale Spezialitäten"
+        ],
+        "pt": [
+          "Especialidades regionais francesas"
+        ],
+        "en": [
+          "Traditional or regional French cuisine (Lorraine, Alsace, Brittany, Burgundy, ...)"
+        ],
+        "it": [
+          "Specialità regionali francesi"
+        ],
+        "fr": [
+          "Spécialités régionales françaises"
+        ],
+        "nl": [
+          "Regionale Franse specialiteiten"
+        ],
+        "es": [
+          "Especialidades regionales francesas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:TropicalCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Tropische Küche"
+        ],
+        "pt": [
+          "Cozinha das ilhas"
+        ],
+        "en": [
+          "Tropical cuisine"
+        ],
+        "it": [
+          "Cucina isolana"
+        ],
+        "fr": [
+          "Cuisine des îles"
+        ],
+        "nl": [
+          "Tropische keuken"
+        ],
+        "es": [
+          "Cocina isleña"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/2bce7327-1c2b-3a34-9714-15a9fd821668",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/edc8355e-2dfe-30de-9231-38854a75cace",
+          "schema:addressLocality": "Salazie",
+          "schema:postalCode": "97433",
+          "schema:streetAddress": [
+            "57 rue du Père Louis Manuel"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97421",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Salazie"
+              ],
+              "fr": [
+                "Salazie"
+              ]
+            },
+            "insee": "97421",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/94c1c924-0f4f-3311-8502-53ed4588e3fb",
+        "schema:latitude": "-21.031832",
+        "schema:longitude": "55.476027",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "altInsee": [
+        "97421"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/94ec81de-1b50-3a95-829c-ebb618048b3d",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/edc8355e-2dfe-30de-9231-38854a75cace",
+          "schema:addressLocality": "Salazie",
+          "schema:postalCode": "97433",
+          "schema:streetAddress": [
+            "57 rue du Père Louis Manuel"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97421",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Salazie"
+              ],
+              "fr": [
+                "Salazie"
+              ]
+            },
+            "insee": "97421",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "giovanny.virapin5@gmail.com"
+      ],
+      "schema:legalName": "Fraîcheur des Hauts",
+      "schema:telephone": [
+        "+33 2 62 53 27 04"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "53433656500021"
+    }
+  ],
+  "lastUpdate": "2021-12-30",
+  "lastUpdateDatatourisme": "2022-08-04T23:24:01.644Z",
+  "providesCuisineOfType": [
+    {
+      "@id": "kb:FrenchCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Französische regionale Spezialitäten"
+        ],
+        "pt": [
+          "Especialidades regionais francesas"
+        ],
+        "en": [
+          "Traditional or regional French cuisine (Lorraine, Alsace, Brittany, Burgundy, ...)"
+        ],
+        "it": [
+          "Specialità regionali francesi"
+        ],
+        "fr": [
+          "Spécialités régionales françaises"
+        ],
+        "nl": [
+          "Regionale Franse specialiteiten"
+        ],
+        "es": [
+          "Especialidades regionales francesas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:TropicalCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Tropische Küche"
+        ],
+        "pt": [
+          "Cozinha das ilhas"
+        ],
+        "en": [
+          "Tropical cuisine"
+        ],
+        "it": [
+          "Cucina isolana"
+        ],
+        "fr": [
+          "Cuisine des îles"
+        ],
+        "nl": [
+          "Tropische keuken"
+        ],
+        "es": [
+          "Cocina isleña"
+        ]
+      }
+    }
+  ],
+  "reducedMobilityAccess": false
+}

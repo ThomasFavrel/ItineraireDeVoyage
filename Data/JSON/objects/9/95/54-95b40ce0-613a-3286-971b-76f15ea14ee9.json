@@ -1,0 +1,831 @@
+{
+  "@id": "https://data.datatourisme.fr/54/95b40ce0-613a-3286-971b-76f15ea14ee9",
+  "dc:identifier": "293-gite-d-ilet-a-malheur",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "CollectiveAccommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "StopOverOrGroupLodge"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Gîte d'Ilet à Malheur"
+    ]
+  },
+  "allowedPersons": 20,
+  "availableLanguage": [
+    "fr,cpf"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/c96f747e-0631-3a48-addc-244e33cbe13c",
+    "schema:familyName": [
+      "Soubik"
+    ],
+    "schema:givenName": [
+      "Soubik"
+    ],
+    "schema:legalName": "Soubik",
+    "@type": [
+      "schema:Organization",
+      "schema:Person",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/3c97db2f-6811-3bbb-9221-548337e0e971",
+      "schema:legalName": "ADT Réunion",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.fr/7f2b8e9c-ce00-398a-b6e6-a50b2e6b88c7",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/f312f8b8-4b2e-3ac8-b69e-e2fed72b97cc",
+          "schema:addressLocality": "La Possession",
+          "schema:postalCode": "97419",
+          "schema:streetAddress": [
+            "Ilet à Malheur - Mafate"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97408",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "La Possession"
+              ],
+              "fr": [
+                "La Possession"
+              ]
+            },
+            "insee": "97408",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:legalName": "Gîte d'Ilet à Malheur",
+      "schema:telephone": [
+        "+33 2 62 43 56 96"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasCommunicationContact": [
+    {
+      "@id": "https://data.datatourisme.fr/7f2b8e9c-ce00-398a-b6e6-a50b2e6b88c7",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/f312f8b8-4b2e-3ac8-b69e-e2fed72b97cc",
+          "schema:addressLocality": "La Possession",
+          "schema:postalCode": "97419",
+          "schema:streetAddress": [
+            "Ilet à Malheur - Mafate"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97408",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "La Possession"
+              ],
+              "fr": [
+                "La Possession"
+              ]
+            },
+            "insee": "97408",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:legalName": "Gîte d'Ilet à Malheur",
+      "schema:telephone": [
+        "+33 2 62 43 56 96"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/7f2b8e9c-ce00-398a-b6e6-a50b2e6b88c7",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/f312f8b8-4b2e-3ac8-b69e-e2fed72b97cc",
+          "schema:addressLocality": "La Possession",
+          "schema:postalCode": "97419",
+          "schema:streetAddress": [
+            "Ilet à Malheur - Mafate"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97408",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "La Possession"
+              ],
+              "fr": [
+                "La Possession"
+              ]
+            },
+            "insee": "97408",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:legalName": "Gîte d'Ilet à Malheur",
+      "schema:telephone": [
+        "+33 2 62 43 56 96"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasManagementContact": [
+    {
+      "@id": "https://data.datatourisme.fr/7f2b8e9c-ce00-398a-b6e6-a50b2e6b88c7",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/f312f8b8-4b2e-3ac8-b69e-e2fed72b97cc",
+          "schema:addressLocality": "La Possession",
+          "schema:postalCode": "97419",
+          "schema:streetAddress": [
+            "Ilet à Malheur - Mafate"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97408",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "La Possession"
+              ],
+              "fr": [
+                "La Possession"
+              ]
+            },
+            "insee": "97408",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:legalName": "Gîte d'Ilet à Malheur",
+      "schema:telephone": [
+        "+33 2 62 43 56 96"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:InTheMountains",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Im Gebirge"
+        ],
+        "pt": [
+          "Na montanha"
+        ],
+        "en": [
+          "In the mountains"
+        ],
+        "it": [
+          "In montagna"
+        ],
+        "fr": [
+          "A la montagne"
+        ],
+        "nl": [
+          "Op de berg"
+        ],
+        "es": [
+          "En la montaña"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Hiking",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Wanderung"
+        ],
+        "pt": [
+          "Caminhada"
+        ],
+        "en": [
+          "Hiking"
+        ],
+        "it": [
+          "Escursione"
+        ],
+        "fr": [
+          "Randonnée"
+        ],
+        "nl": [
+          "Wandelen"
+        ],
+        "es": [
+          "Senderismo"
+        ]
+      }
+    },
+    {
+      "@id": "kb:InTheMountains",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Im Gebirge"
+        ],
+        "pt": [
+          "Na montanha"
+        ],
+        "en": [
+          "In the mountains"
+        ],
+        "it": [
+          "In montagna"
+        ],
+        "fr": [
+          "A la montagne"
+        ],
+        "nl": [
+          "Op de berg"
+        ],
+        "es": [
+          "En la montaña"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/c753727e-47c0-316c-95f6-104ed2c64150",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/f312f8b8-4b2e-3ac8-b69e-e2fed72b97cc",
+          "schema:addressLocality": "La Possession",
+          "schema:postalCode": "97419",
+          "schema:streetAddress": [
+            "Ilet à Malheur - Mafate"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97408",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "La Possession"
+              ],
+              "fr": [
+                "La Possession"
+              ]
+            },
+            "insee": "97408",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/d7ad2751-cb50-3518-9444-b14bc54f3da5",
+        "schema:elevation": "856",
+        "schema:latitude": "-21.02657599",
+        "schema:longitude": "55.42811045",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "altInsee": [
+        "97408"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/7f2b8e9c-ce00-398a-b6e6-a50b2e6b88c7",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/f312f8b8-4b2e-3ac8-b69e-e2fed72b97cc",
+          "schema:addressLocality": "La Possession",
+          "schema:postalCode": "97419",
+          "schema:streetAddress": [
+            "Ilet à Malheur - Mafate"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97408",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "La Possession"
+              ],
+              "fr": [
+                "La Possession"
+              ]
+            },
+            "insee": "97408",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:legalName": "Gîte d'Ilet à Malheur",
+      "schema:telephone": [
+        "+33 2 62 43 56 96"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-01-30",
+  "lastUpdateDatatourisme": "2023-02-04T00:41:43.892Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/02d02986-dff9-3c5e-88fb-683a623dbba5",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

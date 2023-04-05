@@ -1,0 +1,874 @@
+{
+  "@id": "https://data.datatourisme.fr/54/a790fac3-6dd8-3423-baa9-3adc8047e937",
+  "dc:identifier": "587-villa-sauel",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Villa Saül"
+    ]
+  },
+  "allowedPersons": 6,
+  "availableLanguage": [
+    "fr,cpf,en"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/c96f747e-0631-3a48-addc-244e33cbe13c",
+    "schema:familyName": [
+      "Soubik"
+    ],
+    "schema:givenName": [
+      "Soubik"
+    ],
+    "schema:legalName": "Soubik",
+    "@type": [
+      "schema:Organization",
+      "schema:Person",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/3c97db2f-6811-3bbb-9221-548337e0e971",
+      "schema:legalName": "ADT Réunion",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.fr/54e3d993-923a-37fa-b667-15e24e2a6d79",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/e13e467c-eb95-3670-b4e9-42c1f2addbc7",
+          "schema:addressLocality": "Cilaos",
+          "schema:postalCode": "97413",
+          "schema:streetAddress": [
+            "12 bis, chemin Saül - Bras Sec"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97424",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Cilaos"
+              ],
+              "fr": [
+                "Cilaos"
+              ]
+            },
+            "insee": "97424",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:legalName": "Villa Saül",
+      "schema:telephone": [
+        "+33 2 62 25 77 54"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://villasaul.e-monsite.com/"
+      ]
+    }
+  ],
+  "hasCommunicationContact": [
+    {
+      "@id": "https://data.datatourisme.fr/54e3d993-923a-37fa-b667-15e24e2a6d79",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/e13e467c-eb95-3670-b4e9-42c1f2addbc7",
+          "schema:addressLocality": "Cilaos",
+          "schema:postalCode": "97413",
+          "schema:streetAddress": [
+            "12 bis, chemin Saül - Bras Sec"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97424",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Cilaos"
+              ],
+              "fr": [
+                "Cilaos"
+              ]
+            },
+            "insee": "97424",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:legalName": "Villa Saül",
+      "schema:telephone": [
+        "+33 2 62 25 77 54"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://villasaul.e-monsite.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/54e3d993-923a-37fa-b667-15e24e2a6d79",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/e13e467c-eb95-3670-b4e9-42c1f2addbc7",
+          "schema:addressLocality": "Cilaos",
+          "schema:postalCode": "97413",
+          "schema:streetAddress": [
+            "12 bis, chemin Saül - Bras Sec"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97424",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Cilaos"
+              ],
+              "fr": [
+                "Cilaos"
+              ]
+            },
+            "insee": "97424",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:legalName": "Villa Saül",
+      "schema:telephone": [
+        "+33 2 62 25 77 54"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://villasaul.e-monsite.com/"
+      ]
+    }
+  ],
+  "hasManagementContact": [
+    {
+      "@id": "https://data.datatourisme.fr/54e3d993-923a-37fa-b667-15e24e2a6d79",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/e13e467c-eb95-3670-b4e9-42c1f2addbc7",
+          "schema:addressLocality": "Cilaos",
+          "schema:postalCode": "97413",
+          "schema:streetAddress": [
+            "12 bis, chemin Saül - Bras Sec"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97424",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Cilaos"
+              ],
+              "fr": [
+                "Cilaos"
+              ]
+            },
+            "insee": "97424",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:legalName": "Villa Saül",
+      "schema:telephone": [
+        "+33 2 62 25 77 54"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://villasaul.e-monsite.com/"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:InTheMountains",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Im Gebirge"
+        ],
+        "pt": [
+          "Na montanha"
+        ],
+        "en": [
+          "In the mountains"
+        ],
+        "it": [
+          "In montagna"
+        ],
+        "fr": [
+          "A la montagne"
+        ],
+        "nl": [
+          "Op de berg"
+        ],
+        "es": [
+          "En la montaña"
+        ]
+      }
+    },
+    {
+      "@id": "kb:InTheVillage",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Im Dorf"
+        ],
+        "pt": [
+          "Na aldeia"
+        ],
+        "en": [
+          "In the village"
+        ],
+        "it": [
+          "Nel villaggio"
+        ],
+        "fr": [
+          "Dans le village"
+        ],
+        "nl": [
+          "In het dorp"
+        ],
+        "es": [
+          "En el pueblo"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:InTheMountains",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Im Gebirge"
+        ],
+        "pt": [
+          "Na montanha"
+        ],
+        "en": [
+          "In the mountains"
+        ],
+        "it": [
+          "In montagna"
+        ],
+        "fr": [
+          "A la montagne"
+        ],
+        "nl": [
+          "Op de berg"
+        ],
+        "es": [
+          "En la montaña"
+        ]
+      }
+    },
+    {
+      "@id": "kb:InTheVillage",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Im Dorf"
+        ],
+        "pt": [
+          "Na aldeia"
+        ],
+        "en": [
+          "In the village"
+        ],
+        "it": [
+          "Nel villaggio"
+        ],
+        "fr": [
+          "Dans le village"
+        ],
+        "nl": [
+          "In het dorp"
+        ],
+        "es": [
+          "En el pueblo"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/4f6afd4b-b239-36f8-be16-d0ba951a1758",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/e13e467c-eb95-3670-b4e9-42c1f2addbc7",
+          "schema:addressLocality": "Cilaos",
+          "schema:postalCode": "97413",
+          "schema:streetAddress": [
+            "12 bis, chemin Saül - Bras Sec"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97424",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Cilaos"
+              ],
+              "fr": [
+                "Cilaos"
+              ]
+            },
+            "insee": "97424",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/d46bb2f7-3f67-31ff-8146-dadedce8b54a",
+        "schema:elevation": "1345",
+        "schema:latitude": "-21.13757811",
+        "schema:longitude": "55.49519714",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "altInsee": [
+        "97424"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/54e3d993-923a-37fa-b667-15e24e2a6d79",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/e13e467c-eb95-3670-b4e9-42c1f2addbc7",
+          "schema:addressLocality": "Cilaos",
+          "schema:postalCode": "97413",
+          "schema:streetAddress": [
+            "12 bis, chemin Saül - Bras Sec"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97424",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Cilaos"
+              ],
+              "fr": [
+                "Cilaos"
+              ]
+            },
+            "insee": "97424",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:legalName": "Villa Saül",
+      "schema:telephone": [
+        "+33 2 62 25 77 54"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://villasaul.e-monsite.com/"
+      ]
+    }
+  ],
+  "lastUpdate": "2019-10-10",
+  "lastUpdateDatatourisme": "2022-10-25T23:36:26.31Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/02d02986-dff9-3c5e-88fb-683a623dbba5",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

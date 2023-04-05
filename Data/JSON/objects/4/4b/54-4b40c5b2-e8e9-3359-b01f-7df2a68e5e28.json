@@ -1,0 +1,968 @@
+{
+  "@id": "https://data.datatourisme.fr/54/4b40c5b2-e8e9-3359-b01f-7df2a68e5e28",
+  "dc:identifier": "461-3-brasseurs-les",
+  "@type": [
+    "schema:FoodEstablishment",
+    "schema:Restaurant",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "3 Brasseurs (Les)"
+    ]
+  },
+  "allowedPersons": 340,
+  "availableLanguage": [
+    "fr,cpf,en"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/c96f747e-0631-3a48-addc-244e33cbe13c",
+    "schema:familyName": [
+      "Soubik"
+    ],
+    "schema:givenName": [
+      "Soubik"
+    ],
+    "schema:legalName": "Soubik",
+    "@type": [
+      "schema:Organization",
+      "schema:Person",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/3c97db2f-6811-3bbb-9221-548337e0e971",
+      "schema:legalName": "ADT Réunion",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.fr/526a8fdf-d94b-3230-a21e-94b25d7ff05a",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/96d397a0-b591-3d1c-afc2-3529654fb9db",
+          "schema:addressLocality": "Saint-Pierre",
+          "schema:postalCode": "97410",
+          "schema:streetAddress": [
+            "2, chemin de la Z.I n° 2 - Cité Canabady"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97416",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Pierre"
+              ],
+              "fr": [
+                "Saint-Pierre"
+              ]
+            },
+            "insee": "97416",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "st-pierre@les3brasseurs.re"
+      ],
+      "schema:faxNumber": [
+        "0262357011"
+      ],
+      "schema:legalName": "3 Brasseurs (Les)",
+      "schema:telephone": [
+        "+33 2 62 96 30 60"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "http://www.les3brasseurs.re/"
+      ],
+      "siret": "44161190200020"
+    }
+  ],
+  "hasCommunicationContact": [
+    {
+      "@id": "https://data.datatourisme.fr/526a8fdf-d94b-3230-a21e-94b25d7ff05a",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/96d397a0-b591-3d1c-afc2-3529654fb9db",
+          "schema:addressLocality": "Saint-Pierre",
+          "schema:postalCode": "97410",
+          "schema:streetAddress": [
+            "2, chemin de la Z.I n° 2 - Cité Canabady"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97416",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Pierre"
+              ],
+              "fr": [
+                "Saint-Pierre"
+              ]
+            },
+            "insee": "97416",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "st-pierre@les3brasseurs.re"
+      ],
+      "schema:faxNumber": [
+        "0262357011"
+      ],
+      "schema:legalName": "3 Brasseurs (Les)",
+      "schema:telephone": [
+        "+33 2 62 96 30 60"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "http://www.les3brasseurs.re/"
+      ],
+      "siret": "44161190200020"
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/526a8fdf-d94b-3230-a21e-94b25d7ff05a",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/96d397a0-b591-3d1c-afc2-3529654fb9db",
+          "schema:addressLocality": "Saint-Pierre",
+          "schema:postalCode": "97410",
+          "schema:streetAddress": [
+            "2, chemin de la Z.I n° 2 - Cité Canabady"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97416",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Pierre"
+              ],
+              "fr": [
+                "Saint-Pierre"
+              ]
+            },
+            "insee": "97416",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "st-pierre@les3brasseurs.re"
+      ],
+      "schema:faxNumber": [
+        "0262357011"
+      ],
+      "schema:legalName": "3 Brasseurs (Les)",
+      "schema:telephone": [
+        "+33 2 62 96 30 60"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "http://www.les3brasseurs.re/"
+      ],
+      "siret": "44161190200020"
+    }
+  ],
+  "hasManagementContact": [
+    {
+      "@id": "https://data.datatourisme.fr/526a8fdf-d94b-3230-a21e-94b25d7ff05a",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/96d397a0-b591-3d1c-afc2-3529654fb9db",
+          "schema:addressLocality": "Saint-Pierre",
+          "schema:postalCode": "97410",
+          "schema:streetAddress": [
+            "2, chemin de la Z.I n° 2 - Cité Canabady"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97416",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Pierre"
+              ],
+              "fr": [
+                "Saint-Pierre"
+              ]
+            },
+            "insee": "97416",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "st-pierre@les3brasseurs.re"
+      ],
+      "schema:faxNumber": [
+        "0262357011"
+      ],
+      "schema:legalName": "3 Brasseurs (Les)",
+      "schema:telephone": [
+        "+33 2 62 96 30 60"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "http://www.les3brasseurs.re/"
+      ],
+      "siret": "44161190200020"
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:CloseToShops",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "In der Nähe von Geschäften"
+        ],
+        "pt": [
+          "Perto de comércio"
+        ],
+        "en": [
+          "Close to shops"
+        ],
+        "it": [
+          "Vicino ai negozi"
+        ],
+        "fr": [
+          "A proximité de commerces"
+        ],
+        "nl": [
+          "Nabij winkels"
+        ],
+        "es": [
+          "Cerca de las tiendas"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:BotanicalGarden",
+      "@type": [
+        "ParkAndGardenTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Botanischer Garten"
+        ],
+        "pt": [
+          "Jardim botânico"
+        ],
+        "en": [
+          "Botanical garden"
+        ],
+        "it": [
+          "Giardino botanico"
+        ],
+        "fr": [
+          "Jardin botanique"
+        ],
+        "es": [
+          "Jardín botánico"
+        ],
+        "nl": [
+          "Botanische tuin"
+        ]
+      }
+    },
+    {
+      "@id": "kb:ByTheSea",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Am Meer"
+        ],
+        "pt": [
+          "À beira-mar"
+        ],
+        "en": [
+          "By the sea"
+        ],
+        "it": [
+          "In riva al mare"
+        ],
+        "fr": [
+          "Au bord de la mer"
+        ],
+        "nl": [
+          "Aan zee"
+        ],
+        "es": [
+          "A orillas del mar"
+        ]
+      }
+    },
+    {
+      "@id": "kb:CloseToShops",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "In der Nähe von Geschäften"
+        ],
+        "pt": [
+          "Perto de comércio"
+        ],
+        "en": [
+          "Close to shops"
+        ],
+        "it": [
+          "Vicino ai negozi"
+        ],
+        "fr": [
+          "A proximité de commerces"
+        ],
+        "nl": [
+          "Nabij winkels"
+        ],
+        "es": [
+          "Cerca de las tiendas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:EuropeanCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Europäische Küche"
+        ],
+        "pt": [
+          "Cozinha europeia"
+        ],
+        "en": [
+          "European cuisine"
+        ],
+        "it": [
+          "Cucina europea"
+        ],
+        "fr": [
+          "Cuisine européenne"
+        ],
+        "nl": [
+          "Europese keuken"
+        ],
+        "es": [
+          "Cocina europea"
+        ]
+      }
+    },
+    {
+      "@id": "kb:ExoticGarden",
+      "@type": [
+        "ParkAndGardenTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Exotischer Garten"
+        ],
+        "pt": [
+          "Jardim exótico"
+        ],
+        "en": [
+          "Exotic garden"
+        ],
+        "it": [
+          "Giardino esotico"
+        ],
+        "fr": [
+          "Jardin exotique"
+        ],
+        "es": [
+          "Jardín exótico"
+        ],
+        "nl": [
+          "Exotische tuin"
+        ]
+      }
+    },
+    {
+      "@id": "kb:NatureAndEnvironment",
+      "@type": [
+        "CulturalTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Umwelt und Natur"
+        ],
+        "pt": [
+          "Ambiente e natureza"
+        ],
+        "en": [
+          "Nature and environment"
+        ],
+        "it": [
+          "Ambiente e natura"
+        ],
+        "fr": [
+          "Environnement et nature"
+        ],
+        "nl": [
+          "Milieu en natuur"
+        ],
+        "es": [
+          "Medioambiente y naturaleza"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/c6cdde5e-7ca7-391f-add3-05a0030b74e6",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/96d397a0-b591-3d1c-afc2-3529654fb9db",
+          "schema:addressLocality": "Saint-Pierre",
+          "schema:postalCode": "97410",
+          "schema:streetAddress": [
+            "2, chemin de la Z.I n° 2 - Cité Canabady"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97416",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Pierre"
+              ],
+              "fr": [
+                "Saint-Pierre"
+              ]
+            },
+            "insee": "97416",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/8a0bcf21-1623-3ab6-83e9-d8ad661a40e1",
+        "schema:elevation": "117",
+        "schema:latitude": "-21.3230872",
+        "schema:longitude": "55.4747657",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "altInsee": [
+        "97416"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/526a8fdf-d94b-3230-a21e-94b25d7ff05a",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/96d397a0-b591-3d1c-afc2-3529654fb9db",
+          "schema:addressLocality": "Saint-Pierre",
+          "schema:postalCode": "97410",
+          "schema:streetAddress": [
+            "2, chemin de la Z.I n° 2 - Cité Canabady"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97416",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Pierre"
+              ],
+              "fr": [
+                "Saint-Pierre"
+              ]
+            },
+            "insee": "97416",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "st-pierre@les3brasseurs.re"
+      ],
+      "schema:faxNumber": [
+        "0262357011"
+      ],
+      "schema:legalName": "3 Brasseurs (Les)",
+      "schema:telephone": [
+        "+33 2 62 96 30 60"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "http://www.les3brasseurs.re/"
+      ],
+      "siret": "44161190200020"
+    }
+  ],
+  "lastUpdate": "2020-07-10",
+  "lastUpdateDatatourisme": "2022-12-23T00:36:35.156Z",
+  "providesCuisineOfType": [
+    {
+      "@id": "kb:EuropeanCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Europäische Küche"
+        ],
+        "pt": [
+          "Cozinha europeia"
+        ],
+        "en": [
+          "European cuisine"
+        ],
+        "it": [
+          "Cucina europea"
+        ],
+        "fr": [
+          "Cuisine européenne"
+        ],
+        "nl": [
+          "Europese keuken"
+        ],
+        "es": [
+          "Cocina europea"
+        ]
+      }
+    }
+  ],
+  "reducedMobilityAccess": false
+}

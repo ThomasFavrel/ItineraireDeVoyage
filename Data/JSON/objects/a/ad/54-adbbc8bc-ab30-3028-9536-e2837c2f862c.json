@@ -1,0 +1,832 @@
+{
+  "@id": "https://data.datatourisme.fr/54/adbbc8bc-ab30-3028-9536-e2837c2f862c",
+  "dc:identifier": "1038-gite-hoareau-expedit",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "CollectiveAccommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "StopOverOrGroupLodge"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Gîte Hoareau Expedit"
+    ]
+  },
+  "allowedPersons": 20,
+  "availableLanguage": [
+    "fr,cpf"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/c96f747e-0631-3a48-addc-244e33cbe13c",
+    "schema:familyName": [
+      "Soubik"
+    ],
+    "schema:givenName": [
+      "Soubik"
+    ],
+    "schema:legalName": "Soubik",
+    "@type": [
+      "schema:Organization",
+      "schema:Person",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/3c97db2f-6811-3bbb-9221-548337e0e971",
+      "schema:legalName": "ADT Réunion",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.fr/f313a79f-348b-304a-bf8c-ac602486d1a5",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/e2085af2-0477-3e23-ae14-493e71b4d82f",
+          "schema:addressLocality": "Saint-Paul",
+          "schema:postalCode": "97460",
+          "schema:streetAddress": [
+            "Marla - Mafate"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97415",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Paul"
+              ],
+              "fr": [
+                "Saint-Paul"
+              ]
+            },
+            "insee": "97415",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:faxNumber": [
+        "0262712143"
+      ],
+      "schema:legalName": "Gîte Hoareau Expedit",
+      "schema:telephone": [
+        "+33 2 62 43 78 31"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "2147483647"
+    }
+  ],
+  "hasCommunicationContact": [
+    {
+      "@id": "https://data.datatourisme.fr/f313a79f-348b-304a-bf8c-ac602486d1a5",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/e2085af2-0477-3e23-ae14-493e71b4d82f",
+          "schema:addressLocality": "Saint-Paul",
+          "schema:postalCode": "97460",
+          "schema:streetAddress": [
+            "Marla - Mafate"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97415",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Paul"
+              ],
+              "fr": [
+                "Saint-Paul"
+              ]
+            },
+            "insee": "97415",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:faxNumber": [
+        "0262712143"
+      ],
+      "schema:legalName": "Gîte Hoareau Expedit",
+      "schema:telephone": [
+        "+33 2 62 43 78 31"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "2147483647"
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/f313a79f-348b-304a-bf8c-ac602486d1a5",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/e2085af2-0477-3e23-ae14-493e71b4d82f",
+          "schema:addressLocality": "Saint-Paul",
+          "schema:postalCode": "97460",
+          "schema:streetAddress": [
+            "Marla - Mafate"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97415",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Paul"
+              ],
+              "fr": [
+                "Saint-Paul"
+              ]
+            },
+            "insee": "97415",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:faxNumber": [
+        "0262712143"
+      ],
+      "schema:legalName": "Gîte Hoareau Expedit",
+      "schema:telephone": [
+        "+33 2 62 43 78 31"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "2147483647"
+    }
+  ],
+  "hasManagementContact": [
+    {
+      "@id": "https://data.datatourisme.fr/f313a79f-348b-304a-bf8c-ac602486d1a5",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/e2085af2-0477-3e23-ae14-493e71b4d82f",
+          "schema:addressLocality": "Saint-Paul",
+          "schema:postalCode": "97460",
+          "schema:streetAddress": [
+            "Marla - Mafate"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97415",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Paul"
+              ],
+              "fr": [
+                "Saint-Paul"
+              ]
+            },
+            "insee": "97415",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:faxNumber": [
+        "0262712143"
+      ],
+      "schema:legalName": "Gîte Hoareau Expedit",
+      "schema:telephone": [
+        "+33 2 62 43 78 31"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "2147483647"
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:InTheMountains",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Im Gebirge"
+        ],
+        "pt": [
+          "Na montanha"
+        ],
+        "en": [
+          "In the mountains"
+        ],
+        "it": [
+          "In montagna"
+        ],
+        "fr": [
+          "A la montagne"
+        ],
+        "nl": [
+          "Op de berg"
+        ],
+        "es": [
+          "En la montaña"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:InTheMountains",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Im Gebirge"
+        ],
+        "pt": [
+          "Na montanha"
+        ],
+        "en": [
+          "In the mountains"
+        ],
+        "it": [
+          "In montagna"
+        ],
+        "fr": [
+          "A la montagne"
+        ],
+        "nl": [
+          "Op de berg"
+        ],
+        "es": [
+          "En la montaña"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/3f2171b3-1d0c-31fa-a4a4-a4d6890d2c4e",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/e2085af2-0477-3e23-ae14-493e71b4d82f",
+          "schema:addressLocality": "Saint-Paul",
+          "schema:postalCode": "97460",
+          "schema:streetAddress": [
+            "Marla - Mafate"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97415",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Paul"
+              ],
+              "fr": [
+                "Saint-Paul"
+              ]
+            },
+            "insee": "97415",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/9c4e1022-7b15-363c-9e32-947b79764b8f",
+        "schema:elevation": "1642",
+        "schema:latitude": "-21.1026399",
+        "schema:longitude": "55.43360631",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "altInsee": [
+        "97415"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/f313a79f-348b-304a-bf8c-ac602486d1a5",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/e2085af2-0477-3e23-ae14-493e71b4d82f",
+          "schema:addressLocality": "Saint-Paul",
+          "schema:postalCode": "97460",
+          "schema:streetAddress": [
+            "Marla - Mafate"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97415",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Paul"
+              ],
+              "fr": [
+                "Saint-Paul"
+              ]
+            },
+            "insee": "97415",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:faxNumber": [
+        "0262712143"
+      ],
+      "schema:legalName": "Gîte Hoareau Expedit",
+      "schema:telephone": [
+        "+33 2 62 43 78 31"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "2147483647"
+    }
+  ],
+  "lastUpdate": "2023-02-08",
+  "lastUpdateDatatourisme": "2023-02-09T00:46:53.174Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/02d02986-dff9-3c5e-88fb-683a623dbba5",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

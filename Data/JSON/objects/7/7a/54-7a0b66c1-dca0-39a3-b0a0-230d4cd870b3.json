@@ -1,0 +1,806 @@
+{
+  "@id": "https://data.datatourisme.fr/54/7a0b66c1-dca0-39a3-b0a0-230d4cd870b3",
+  "dc:identifier": "5150-maison-des-hotes-la",
+  "@type": [
+    "schema:Accommodation",
+    "schema:BedAndBreakfast",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "Guesthouse",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Maison des Hôtes (La)"
+    ]
+  },
+  "allowedPersons": 6,
+  "availableLanguage": [
+    "fr,en"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/c96f747e-0631-3a48-addc-244e33cbe13c",
+    "schema:familyName": [
+      "Soubik"
+    ],
+    "schema:givenName": [
+      "Soubik"
+    ],
+    "schema:legalName": "Soubik",
+    "@type": [
+      "schema:Organization",
+      "schema:Person",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/3c97db2f-6811-3bbb-9221-548337e0e971",
+      "schema:legalName": "ADT Réunion",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.fr/47a4427f-bc7b-375b-9b9f-1522eba9683f",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/1a5ee270-ee81-32b7-8121-7def2a706a68",
+          "schema:addressLocality": "Saint-Joseph",
+          "schema:postalCode": "97480",
+          "schema:streetAddress": [
+            "7 rue Joseph de Souville"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97412",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Joseph"
+              ],
+              "fr": [
+                "Saint-Joseph"
+              ]
+            },
+            "insee": "97412",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "lamaisondeshotes974@gmail.com"
+      ],
+      "schema:legalName": "Maison des Hôtes (La)",
+      "schema:telephone": [
+        "+33 2 62 56 58 49"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "https://lamaisondeshotes.re/"
+      ],
+      "siret": "85409099000029"
+    }
+  ],
+  "hasCommunicationContact": [
+    {
+      "@id": "https://data.datatourisme.fr/47a4427f-bc7b-375b-9b9f-1522eba9683f",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/1a5ee270-ee81-32b7-8121-7def2a706a68",
+          "schema:addressLocality": "Saint-Joseph",
+          "schema:postalCode": "97480",
+          "schema:streetAddress": [
+            "7 rue Joseph de Souville"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97412",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Joseph"
+              ],
+              "fr": [
+                "Saint-Joseph"
+              ]
+            },
+            "insee": "97412",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "lamaisondeshotes974@gmail.com"
+      ],
+      "schema:legalName": "Maison des Hôtes (La)",
+      "schema:telephone": [
+        "+33 2 62 56 58 49"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "https://lamaisondeshotes.re/"
+      ],
+      "siret": "85409099000029"
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/47a4427f-bc7b-375b-9b9f-1522eba9683f",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/1a5ee270-ee81-32b7-8121-7def2a706a68",
+          "schema:addressLocality": "Saint-Joseph",
+          "schema:postalCode": "97480",
+          "schema:streetAddress": [
+            "7 rue Joseph de Souville"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97412",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Joseph"
+              ],
+              "fr": [
+                "Saint-Joseph"
+              ]
+            },
+            "insee": "97412",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "lamaisondeshotes974@gmail.com"
+      ],
+      "schema:legalName": "Maison des Hôtes (La)",
+      "schema:telephone": [
+        "+33 2 62 56 58 49"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "https://lamaisondeshotes.re/"
+      ],
+      "siret": "85409099000029"
+    }
+  ],
+  "hasManagementContact": [
+    {
+      "@id": "https://data.datatourisme.fr/47a4427f-bc7b-375b-9b9f-1522eba9683f",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/1a5ee270-ee81-32b7-8121-7def2a706a68",
+          "schema:addressLocality": "Saint-Joseph",
+          "schema:postalCode": "97480",
+          "schema:streetAddress": [
+            "7 rue Joseph de Souville"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97412",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Joseph"
+              ],
+              "fr": [
+                "Saint-Joseph"
+              ]
+            },
+            "insee": "97412",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "lamaisondeshotes974@gmail.com"
+      ],
+      "schema:legalName": "Maison des Hôtes (La)",
+      "schema:telephone": [
+        "+33 2 62 56 58 49"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "https://lamaisondeshotes.re/"
+      ],
+      "siret": "85409099000029"
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/1eed6f44-dfe7-3248-8a65-5e8eb1b73b72",
+      "schema:datePublished": [
+        "2019-06-29"
+      ],
+      "@type": [
+        "schema:Review",
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_4etoiles",
+        "schema:ratingValue": "4.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "4 Sterne"
+          ],
+          "pt": [
+            "4 estrelas"
+          ],
+          "en": [
+            "4 Stars"
+          ],
+          "it": [
+            "4 stelle"
+          ],
+          "fr": [
+            "4 étoiles"
+          ],
+          "nl": [
+            "4 sterren"
+          ],
+          "es": [
+            "4 estrellas"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      },
+      "reviewDeliveryDate": "2019-06-29"
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/018c29f3-2bd1-340b-8390-8bd55afdc0e3",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/1a5ee270-ee81-32b7-8121-7def2a706a68",
+          "schema:addressLocality": "Saint-Joseph",
+          "schema:postalCode": "97480",
+          "schema:streetAddress": [
+            "7 rue Joseph de Souville"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97412",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Joseph"
+              ],
+              "fr": [
+                "Saint-Joseph"
+              ]
+            },
+            "insee": "97412",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/802027b2-bc0c-3d38-9d69-1e40f60b30a1",
+        "schema:latitude": "-21.37802",
+        "schema:longitude": "55.618315",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "altInsee": [
+        "97412"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/47a4427f-bc7b-375b-9b9f-1522eba9683f",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/1a5ee270-ee81-32b7-8121-7def2a706a68",
+          "schema:addressLocality": "Saint-Joseph",
+          "schema:postalCode": "97480",
+          "schema:streetAddress": [
+            "7 rue Joseph de Souville"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97412",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Joseph"
+              ],
+              "fr": [
+                "Saint-Joseph"
+              ]
+            },
+            "insee": "97412",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "lamaisondeshotes974@gmail.com"
+      ],
+      "schema:legalName": "Maison des Hôtes (La)",
+      "schema:telephone": [
+        "+33 2 62 56 58 49"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "https://lamaisondeshotes.re/"
+      ],
+      "siret": "85409099000029"
+    }
+  ],
+  "lastUpdate": "2020-04-16",
+  "lastUpdateDatatourisme": "2022-12-03T00:37:40.08Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/863aba45-2f7a-3e12-ba5e-58604edde99c",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

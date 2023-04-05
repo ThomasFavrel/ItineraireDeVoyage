@@ -1,0 +1,761 @@
+{
+  "@id": "https://data.datatourisme.fr/54/b6f8c9c4-686d-36ab-b50e-4b50ab3d1614",
+  "dc:identifier": "5542-cafe-brasserie-de-la-poste",
+  "@type": [
+    "schema:FoodEstablishment",
+    "schema:Restaurant",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Café Brasserie de la Poste"
+    ]
+  },
+  "allowedPersons": 35,
+  "availableLanguage": [
+    "fr,cpf"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/c96f747e-0631-3a48-addc-244e33cbe13c",
+    "schema:familyName": [
+      "Soubik"
+    ],
+    "schema:givenName": [
+      "Soubik"
+    ],
+    "schema:legalName": "Soubik",
+    "@type": [
+      "schema:Organization",
+      "schema:Person",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/3c97db2f-6811-3bbb-9221-548337e0e971",
+      "schema:legalName": "ADT Réunion",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.fr/2a583924-8529-3d79-993d-60810eb08bfe",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/3fb5169a-496c-34e9-bd51-52693c708f01",
+          "schema:addressLocality": "Saint-Joseph",
+          "schema:postalCode": "97480",
+          "schema:streetAddress": [
+            "170 rue Raphaël Babet"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97412",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Joseph"
+              ],
+              "fr": [
+                "Saint-Joseph"
+              ]
+            },
+            "insee": "97412",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "assdir.caesar@gmail.com"
+      ],
+      "schema:legalName": "Café Brasserie de la Poste",
+      "schema:telephone": [
+        "+33 2 63 00 53 77"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "88254981900010"
+    }
+  ],
+  "hasCommunicationContact": [
+    {
+      "@id": "https://data.datatourisme.fr/2a583924-8529-3d79-993d-60810eb08bfe",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/3fb5169a-496c-34e9-bd51-52693c708f01",
+          "schema:addressLocality": "Saint-Joseph",
+          "schema:postalCode": "97480",
+          "schema:streetAddress": [
+            "170 rue Raphaël Babet"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97412",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Joseph"
+              ],
+              "fr": [
+                "Saint-Joseph"
+              ]
+            },
+            "insee": "97412",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "assdir.caesar@gmail.com"
+      ],
+      "schema:legalName": "Café Brasserie de la Poste",
+      "schema:telephone": [
+        "+33 2 63 00 53 77"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "88254981900010"
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/2a583924-8529-3d79-993d-60810eb08bfe",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/3fb5169a-496c-34e9-bd51-52693c708f01",
+          "schema:addressLocality": "Saint-Joseph",
+          "schema:postalCode": "97480",
+          "schema:streetAddress": [
+            "170 rue Raphaël Babet"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97412",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Joseph"
+              ],
+              "fr": [
+                "Saint-Joseph"
+              ]
+            },
+            "insee": "97412",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "assdir.caesar@gmail.com"
+      ],
+      "schema:legalName": "Café Brasserie de la Poste",
+      "schema:telephone": [
+        "+33 2 63 00 53 77"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "88254981900010"
+    }
+  ],
+  "hasManagementContact": [
+    {
+      "@id": "https://data.datatourisme.fr/2a583924-8529-3d79-993d-60810eb08bfe",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/3fb5169a-496c-34e9-bd51-52693c708f01",
+          "schema:addressLocality": "Saint-Joseph",
+          "schema:postalCode": "97480",
+          "schema:streetAddress": [
+            "170 rue Raphaël Babet"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97412",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Joseph"
+              ],
+              "fr": [
+                "Saint-Joseph"
+              ]
+            },
+            "insee": "97412",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "assdir.caesar@gmail.com"
+      ],
+      "schema:legalName": "Café Brasserie de la Poste",
+      "schema:telephone": [
+        "+33 2 63 00 53 77"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "88254981900010"
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:Downtown",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Im Stadtzentrum"
+        ],
+        "pt": [
+          "No centro da cidade"
+        ],
+        "en": [
+          "Downtown"
+        ],
+        "it": [
+          "In centro città"
+        ],
+        "fr": [
+          "En centre ville"
+        ],
+        "nl": [
+          "In het centrum van de stad"
+        ],
+        "es": [
+          "En el centro de la ciudad"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Downtown",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Im Stadtzentrum"
+        ],
+        "pt": [
+          "No centro da cidade"
+        ],
+        "en": [
+          "Downtown"
+        ],
+        "it": [
+          "In centro città"
+        ],
+        "fr": [
+          "En centre ville"
+        ],
+        "nl": [
+          "In het centrum van de stad"
+        ],
+        "es": [
+          "En el centro de la ciudad"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/54028a44-efcf-3a1f-85f8-c7383baa5898",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/3fb5169a-496c-34e9-bd51-52693c708f01",
+          "schema:addressLocality": "Saint-Joseph",
+          "schema:postalCode": "97480",
+          "schema:streetAddress": [
+            "170 rue Raphaël Babet"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97412",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Joseph"
+              ],
+              "fr": [
+                "Saint-Joseph"
+              ]
+            },
+            "insee": "97412",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/77d5bd99-e74f-38ab-b591-4e4a5d0cdf0b",
+        "schema:latitude": "-21.377708",
+        "schema:longitude": "55.61629",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "altInsee": [
+        "97412"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/2a583924-8529-3d79-993d-60810eb08bfe",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/3fb5169a-496c-34e9-bd51-52693c708f01",
+          "schema:addressLocality": "Saint-Joseph",
+          "schema:postalCode": "97480",
+          "schema:streetAddress": [
+            "170 rue Raphaël Babet"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97412",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Joseph"
+              ],
+              "fr": [
+                "Saint-Joseph"
+              ]
+            },
+            "insee": "97412",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "assdir.caesar@gmail.com"
+      ],
+      "schema:legalName": "Café Brasserie de la Poste",
+      "schema:telephone": [
+        "+33 2 63 00 53 77"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "88254981900010"
+    }
+  ],
+  "lastUpdate": "2021-02-03",
+  "lastUpdateDatatourisme": "2022-05-24T23:33:29.141Z",
+  "reducedMobilityAccess": false
+}

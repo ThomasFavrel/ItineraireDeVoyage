@@ -1,0 +1,776 @@
+{
+  "@id": "https://data.datatourisme.fr/54/dfc33771-23e7-335d-bb27-26f41f71f932",
+  "dc:identifier": "1775-cheminements",
+  "@type": [
+    "schema:LocalBusiness",
+    "ArtGalleryOrExhibitionGallery",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Store"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Cheminements"
+    ]
+  },
+  "allowedPersons": 0,
+  "availableLanguage": [
+    "fr"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/c96f747e-0631-3a48-addc-244e33cbe13c",
+    "schema:familyName": [
+      "Soubik"
+    ],
+    "schema:givenName": [
+      "Soubik"
+    ],
+    "schema:legalName": "Soubik",
+    "@type": [
+      "schema:Organization",
+      "schema:Person",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/3c97db2f-6811-3bbb-9221-548337e0e971",
+      "schema:legalName": "ADT Réunion",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.fr/b47ca83a-4de6-3a99-897b-51aa4d0536ce",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/b8d04d63-f3cb-31f2-b4b4-b021a7d9fac9",
+          "schema:addressLocality": "Saint-Paul",
+          "schema:postalCode": "97435",
+          "schema:streetAddress": [
+            "96, rue Fond Générèse - Eperon"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97415",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Paul"
+              ],
+              "fr": [
+                "Saint-Paul"
+              ]
+            },
+            "insee": "97415",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "cheminements@live.fr"
+      ],
+      "schema:legalName": "Cheminements",
+      "schema:telephone": [
+        "+33 2 62 22 96 57"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "http://www.cheminements.org/"
+      ],
+      "siret": "43771264900031"
+    }
+  ],
+  "hasCommunicationContact": [
+    {
+      "@id": "https://data.datatourisme.fr/b47ca83a-4de6-3a99-897b-51aa4d0536ce",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/b8d04d63-f3cb-31f2-b4b4-b021a7d9fac9",
+          "schema:addressLocality": "Saint-Paul",
+          "schema:postalCode": "97435",
+          "schema:streetAddress": [
+            "96, rue Fond Générèse - Eperon"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97415",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Paul"
+              ],
+              "fr": [
+                "Saint-Paul"
+              ]
+            },
+            "insee": "97415",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "cheminements@live.fr"
+      ],
+      "schema:legalName": "Cheminements",
+      "schema:telephone": [
+        "+33 2 62 22 96 57"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "http://www.cheminements.org/"
+      ],
+      "siret": "43771264900031"
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/b47ca83a-4de6-3a99-897b-51aa4d0536ce",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/b8d04d63-f3cb-31f2-b4b4-b021a7d9fac9",
+          "schema:addressLocality": "Saint-Paul",
+          "schema:postalCode": "97435",
+          "schema:streetAddress": [
+            "96, rue Fond Générèse - Eperon"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97415",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Paul"
+              ],
+              "fr": [
+                "Saint-Paul"
+              ]
+            },
+            "insee": "97415",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "cheminements@live.fr"
+      ],
+      "schema:legalName": "Cheminements",
+      "schema:telephone": [
+        "+33 2 62 22 96 57"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "http://www.cheminements.org/"
+      ],
+      "siret": "43771264900031"
+    }
+  ],
+  "hasManagementContact": [
+    {
+      "@id": "https://data.datatourisme.fr/b47ca83a-4de6-3a99-897b-51aa4d0536ce",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/b8d04d63-f3cb-31f2-b4b4-b021a7d9fac9",
+          "schema:addressLocality": "Saint-Paul",
+          "schema:postalCode": "97435",
+          "schema:streetAddress": [
+            "96, rue Fond Générèse - Eperon"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97415",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Paul"
+              ],
+              "fr": [
+                "Saint-Paul"
+              ]
+            },
+            "insee": "97415",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "cheminements@live.fr"
+      ],
+      "schema:legalName": "Cheminements",
+      "schema:telephone": [
+        "+33 2 62 22 96 57"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "http://www.cheminements.org/"
+      ],
+      "siret": "43771264900031"
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Auf dem Land"
+        ],
+        "pt": [
+          "No campo"
+        ],
+        "en": [
+          "In the countryside"
+        ],
+        "it": [
+          "In campagna"
+        ],
+        "fr": [
+          "A la campagne"
+        ],
+        "nl": [
+          "Op het platteland"
+        ],
+        "es": [
+          "En el campo"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Auf dem Land"
+        ],
+        "pt": [
+          "No campo"
+        ],
+        "en": [
+          "In the countryside"
+        ],
+        "it": [
+          "In campagna"
+        ],
+        "fr": [
+          "A la campagne"
+        ],
+        "nl": [
+          "Op het platteland"
+        ],
+        "es": [
+          "En el campo"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/2ed75a0f-8c99-341e-9122-a716c8bda988",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/b8d04d63-f3cb-31f2-b4b4-b021a7d9fac9",
+          "schema:addressLocality": "Saint-Paul",
+          "schema:postalCode": "97435",
+          "schema:streetAddress": [
+            "96, rue Fond Générèse - Eperon"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97415",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Paul"
+              ],
+              "fr": [
+                "Saint-Paul"
+              ]
+            },
+            "insee": "97415",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/b42de80a-b9b9-351f-b196-2dcb5078d114",
+        "schema:elevation": "0",
+        "schema:latitude": "-21.045364",
+        "schema:longitude": "55.255919",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "altInsee": [
+        "97415"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/b47ca83a-4de6-3a99-897b-51aa4d0536ce",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/b8d04d63-f3cb-31f2-b4b4-b021a7d9fac9",
+          "schema:addressLocality": "Saint-Paul",
+          "schema:postalCode": "97435",
+          "schema:streetAddress": [
+            "96, rue Fond Générèse - Eperon"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97415",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Paul"
+              ],
+              "fr": [
+                "Saint-Paul"
+              ]
+            },
+            "insee": "97415",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "cheminements@live.fr"
+      ],
+      "schema:legalName": "Cheminements",
+      "schema:telephone": [
+        "+33 2 62 22 96 57"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "http://www.cheminements.org/"
+      ],
+      "siret": "43771264900031"
+    }
+  ],
+  "lastUpdate": "2019-10-10",
+  "lastUpdateDatatourisme": "2022-12-22T00:36:49.634Z",
+  "reducedMobilityAccess": false
+}

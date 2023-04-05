@@ -1,0 +1,922 @@
+{
+  "@id": "https://data.datatourisme.fr/54/009615a7-dc5d-38f0-b3c5-12f12259619b",
+  "dc:identifier": "1450-regal-des-iles",
+  "@type": [
+    "schema:FoodEstablishment",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Régal des Iles"
+    ]
+  },
+  "allowedPersons": 70,
+  "availableLanguage": [
+    "fr,cpf"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/c96f747e-0631-3a48-addc-244e33cbe13c",
+    "schema:familyName": [
+      "Soubik"
+    ],
+    "schema:givenName": [
+      "Soubik"
+    ],
+    "schema:legalName": "Soubik",
+    "@type": [
+      "schema:Organization",
+      "schema:Person",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/3c97db2f-6811-3bbb-9221-548337e0e971",
+      "schema:legalName": "ADT Réunion",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.fr/fc2ae5eb-d6d3-3646-b638-c4246b0bdd44",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/b89d834c-9347-3f2b-8675-e67b88e5d93f",
+          "schema:addressLocality": "Saint-Denis",
+          "schema:postalCode": "97490",
+          "schema:streetAddress": [
+            "30, rue Pierre Aubert - Z.I. du Chaudron"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97411",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Denis"
+              ],
+              "fr": [
+                "Saint-Denis"
+              ]
+            },
+            "insee": "97411",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "regaldesiles@regaldesiles.re"
+      ],
+      "schema:faxNumber": [
+        "0262538780"
+      ],
+      "schema:legalName": "Régal des Iles",
+      "schema:telephone": [
+        "+33 2 62 53 63 34"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "44931731200022"
+    }
+  ],
+  "hasCommunicationContact": [
+    {
+      "@id": "https://data.datatourisme.fr/fc2ae5eb-d6d3-3646-b638-c4246b0bdd44",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/b89d834c-9347-3f2b-8675-e67b88e5d93f",
+          "schema:addressLocality": "Saint-Denis",
+          "schema:postalCode": "97490",
+          "schema:streetAddress": [
+            "30, rue Pierre Aubert - Z.I. du Chaudron"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97411",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Denis"
+              ],
+              "fr": [
+                "Saint-Denis"
+              ]
+            },
+            "insee": "97411",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "regaldesiles@regaldesiles.re"
+      ],
+      "schema:faxNumber": [
+        "0262538780"
+      ],
+      "schema:legalName": "Régal des Iles",
+      "schema:telephone": [
+        "+33 2 62 53 63 34"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "44931731200022"
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/fc2ae5eb-d6d3-3646-b638-c4246b0bdd44",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/b89d834c-9347-3f2b-8675-e67b88e5d93f",
+          "schema:addressLocality": "Saint-Denis",
+          "schema:postalCode": "97490",
+          "schema:streetAddress": [
+            "30, rue Pierre Aubert - Z.I. du Chaudron"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97411",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Denis"
+              ],
+              "fr": [
+                "Saint-Denis"
+              ]
+            },
+            "insee": "97411",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "regaldesiles@regaldesiles.re"
+      ],
+      "schema:faxNumber": [
+        "0262538780"
+      ],
+      "schema:legalName": "Régal des Iles",
+      "schema:telephone": [
+        "+33 2 62 53 63 34"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "44931731200022"
+    }
+  ],
+  "hasManagementContact": [
+    {
+      "@id": "https://data.datatourisme.fr/fc2ae5eb-d6d3-3646-b638-c4246b0bdd44",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/b89d834c-9347-3f2b-8675-e67b88e5d93f",
+          "schema:addressLocality": "Saint-Denis",
+          "schema:postalCode": "97490",
+          "schema:streetAddress": [
+            "30, rue Pierre Aubert - Z.I. du Chaudron"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97411",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Denis"
+              ],
+              "fr": [
+                "Saint-Denis"
+              ]
+            },
+            "insee": "97411",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "regaldesiles@regaldesiles.re"
+      ],
+      "schema:faxNumber": [
+        "0262538780"
+      ],
+      "schema:legalName": "Régal des Iles",
+      "schema:telephone": [
+        "+33 2 62 53 63 34"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "44931731200022"
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:CloseToShops",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "In der Nähe von Geschäften"
+        ],
+        "pt": [
+          "Perto de comércio"
+        ],
+        "en": [
+          "Close to shops"
+        ],
+        "it": [
+          "Vicino ai negozi"
+        ],
+        "fr": [
+          "A proximité de commerces"
+        ],
+        "nl": [
+          "Nabij winkels"
+        ],
+        "es": [
+          "Cerca de las tiendas"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:CloseToShops",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "In der Nähe von Geschäften"
+        ],
+        "pt": [
+          "Perto de comércio"
+        ],
+        "en": [
+          "Close to shops"
+        ],
+        "it": [
+          "Vicino ai negozi"
+        ],
+        "fr": [
+          "A proximité de commerces"
+        ],
+        "nl": [
+          "Nabij winkels"
+        ],
+        "es": [
+          "Cerca de las tiendas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:FrenchCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Französische regionale Spezialitäten"
+        ],
+        "pt": [
+          "Especialidades regionais francesas"
+        ],
+        "en": [
+          "Traditional or regional French cuisine (Lorraine, Alsace, Brittany, Burgundy, ...)"
+        ],
+        "it": [
+          "Specialità regionali francesi"
+        ],
+        "fr": [
+          "Spécialités régionales françaises"
+        ],
+        "nl": [
+          "Regionale Franse specialiteiten"
+        ],
+        "es": [
+          "Especialidades regionales francesas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Gastronomy",
+      "@type": [
+        "CulturalTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gastronomie"
+        ],
+        "pt": [
+          "Gastronomia"
+        ],
+        "en": [
+          "Gastronomy"
+        ],
+        "it": [
+          "Gastronomia"
+        ],
+        "fr": [
+          "Gastronomie"
+        ],
+        "nl": [
+          "Gastronomie"
+        ],
+        "es": [
+          "Gastronomía"
+        ]
+      }
+    },
+    {
+      "@id": "kb:TropicalCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Tropische Küche"
+        ],
+        "pt": [
+          "Cozinha das ilhas"
+        ],
+        "en": [
+          "Tropical cuisine"
+        ],
+        "it": [
+          "Cucina isolana"
+        ],
+        "fr": [
+          "Cuisine des îles"
+        ],
+        "nl": [
+          "Tropische keuken"
+        ],
+        "es": [
+          "Cocina isleña"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/81a2e258-00fd-35f7-b832-7fc2659e489f",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/b89d834c-9347-3f2b-8675-e67b88e5d93f",
+          "schema:addressLocality": "Saint-Denis",
+          "schema:postalCode": "97490",
+          "schema:streetAddress": [
+            "30, rue Pierre Aubert - Z.I. du Chaudron"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97411",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Denis"
+              ],
+              "fr": [
+                "Saint-Denis"
+              ]
+            },
+            "insee": "97411",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/e85c12e9-72f1-3c3a-ba0d-1bcd6829dee2",
+        "schema:elevation": "37",
+        "schema:latitude": "-20.89039567",
+        "schema:longitude": "55.49472393",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "altInsee": [
+        "97411"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/fc2ae5eb-d6d3-3646-b638-c4246b0bdd44",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/b89d834c-9347-3f2b-8675-e67b88e5d93f",
+          "schema:addressLocality": "Saint-Denis",
+          "schema:postalCode": "97490",
+          "schema:streetAddress": [
+            "30, rue Pierre Aubert - Z.I. du Chaudron"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97411",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Denis"
+              ],
+              "fr": [
+                "Saint-Denis"
+              ]
+            },
+            "insee": "97411",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "regaldesiles@regaldesiles.re"
+      ],
+      "schema:faxNumber": [
+        "0262538780"
+      ],
+      "schema:legalName": "Régal des Iles",
+      "schema:telephone": [
+        "+33 2 62 53 63 34"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "44931731200022"
+    }
+  ],
+  "lastUpdate": "2019-10-10",
+  "lastUpdateDatatourisme": "2023-02-07T00:36:24.374Z",
+  "providesCuisineOfType": [
+    {
+      "@id": "kb:FrenchCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Französische regionale Spezialitäten"
+        ],
+        "pt": [
+          "Especialidades regionais francesas"
+        ],
+        "en": [
+          "Traditional or regional French cuisine (Lorraine, Alsace, Brittany, Burgundy, ...)"
+        ],
+        "it": [
+          "Specialità regionali francesi"
+        ],
+        "fr": [
+          "Spécialités régionales françaises"
+        ],
+        "nl": [
+          "Regionale Franse specialiteiten"
+        ],
+        "es": [
+          "Especialidades regionales francesas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:TropicalCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Tropische Küche"
+        ],
+        "pt": [
+          "Cozinha das ilhas"
+        ],
+        "en": [
+          "Tropical cuisine"
+        ],
+        "it": [
+          "Cucina isolana"
+        ],
+        "fr": [
+          "Cuisine des îles"
+        ],
+        "nl": [
+          "Tropische keuken"
+        ],
+        "es": [
+          "Cocina isleña"
+        ]
+      }
+    }
+  ],
+  "reducedMobilityAccess": false
+}

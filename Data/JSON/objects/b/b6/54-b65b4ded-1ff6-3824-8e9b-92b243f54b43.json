@@ -1,0 +1,954 @@
+{
+  "@id": "https://data.datatourisme.fr/54/b65b4ded-1ff6-3824-8e9b-92b243f54b43",
+  "dc:identifier": "4095-villa-saline",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Villa Saline"
+    ]
+  },
+  "allowedPersons": 7,
+  "availableLanguage": [
+    "fr,en"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/c96f747e-0631-3a48-addc-244e33cbe13c",
+    "schema:familyName": [
+      "Soubik"
+    ],
+    "schema:givenName": [
+      "Soubik"
+    ],
+    "schema:legalName": "Soubik",
+    "@type": [
+      "schema:Organization",
+      "schema:Person",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/3c97db2f-6811-3bbb-9221-548337e0e971",
+      "schema:legalName": "ADT Réunion",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.fr/0f051b5c-83d4-35a0-a9a8-dd2a3ee30494",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/e5ab8029-de77-3b08-ae4d-987d2ef3ac9c",
+          "schema:addressLocality": "Saint-Paul",
+          "schema:postalCode": "97434",
+          "schema:streetAddress": [
+            "3, rue des Argonautes"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97415",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Paul"
+              ],
+              "fr": [
+                "Saint-Paul"
+              ]
+            },
+            "insee": "97415",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "info@villavacancesreunion.com"
+      ],
+      "schema:legalName": "Villa Saline",
+      "schema:telephone": [
+        "+33 6 92 86 24 92"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "http://www.villavacancesreunion.com/"
+      ],
+      "siret": "40977568100052"
+    }
+  ],
+  "hasCommunicationContact": [
+    {
+      "@id": "https://data.datatourisme.fr/0f051b5c-83d4-35a0-a9a8-dd2a3ee30494",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/e5ab8029-de77-3b08-ae4d-987d2ef3ac9c",
+          "schema:addressLocality": "Saint-Paul",
+          "schema:postalCode": "97434",
+          "schema:streetAddress": [
+            "3, rue des Argonautes"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97415",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Paul"
+              ],
+              "fr": [
+                "Saint-Paul"
+              ]
+            },
+            "insee": "97415",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "info@villavacancesreunion.com"
+      ],
+      "schema:legalName": "Villa Saline",
+      "schema:telephone": [
+        "+33 6 92 86 24 92"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "http://www.villavacancesreunion.com/"
+      ],
+      "siret": "40977568100052"
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/0f051b5c-83d4-35a0-a9a8-dd2a3ee30494",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/e5ab8029-de77-3b08-ae4d-987d2ef3ac9c",
+          "schema:addressLocality": "Saint-Paul",
+          "schema:postalCode": "97434",
+          "schema:streetAddress": [
+            "3, rue des Argonautes"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97415",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Paul"
+              ],
+              "fr": [
+                "Saint-Paul"
+              ]
+            },
+            "insee": "97415",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "info@villavacancesreunion.com"
+      ],
+      "schema:legalName": "Villa Saline",
+      "schema:telephone": [
+        "+33 6 92 86 24 92"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "http://www.villavacancesreunion.com/"
+      ],
+      "siret": "40977568100052"
+    }
+  ],
+  "hasManagementContact": [
+    {
+      "@id": "https://data.datatourisme.fr/0f051b5c-83d4-35a0-a9a8-dd2a3ee30494",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/e5ab8029-de77-3b08-ae4d-987d2ef3ac9c",
+          "schema:addressLocality": "Saint-Paul",
+          "schema:postalCode": "97434",
+          "schema:streetAddress": [
+            "3, rue des Argonautes"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97415",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Paul"
+              ],
+              "fr": [
+                "Saint-Paul"
+              ]
+            },
+            "insee": "97415",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "info@villavacancesreunion.com"
+      ],
+      "schema:legalName": "Villa Saline",
+      "schema:telephone": [
+        "+33 6 92 86 24 92"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "http://www.villavacancesreunion.com/"
+      ],
+      "siret": "40977568100052"
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:ByTheSea",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Am Meer"
+        ],
+        "pt": [
+          "À beira-mar"
+        ],
+        "en": [
+          "By the sea"
+        ],
+        "it": [
+          "In riva al mare"
+        ],
+        "fr": [
+          "Au bord de la mer"
+        ],
+        "nl": [
+          "Aan zee"
+        ],
+        "es": [
+          "A orillas del mar"
+        ]
+      }
+    },
+    {
+      "@id": "kb:DirectAccessToTheBeach",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Direkter Zugang zum Strand"
+        ],
+        "pt": [
+          "Acesso direto à praia"
+        ],
+        "en": [
+          "Direct access to the beach"
+        ],
+        "it": [
+          "Accesso diretto alla spiaggia"
+        ],
+        "fr": [
+          "Accès direct à la plage"
+        ],
+        "nl": [
+          "Directe toegang tot het strand"
+        ],
+        "es": [
+          "Acceso directo a la playa"
+        ]
+      }
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/a8dfacaf-f6b3-3a92-b0cc-ba4cf3aa6cd8",
+      "schema:datePublished": [
+        "2019-06-24"
+      ],
+      "@type": [
+        "schema:Review",
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_4etoiles",
+        "schema:ratingValue": "4.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "4 Sterne"
+          ],
+          "pt": [
+            "4 estrelas"
+          ],
+          "en": [
+            "4 Stars"
+          ],
+          "it": [
+            "4 stelle"
+          ],
+          "fr": [
+            "4 étoiles"
+          ],
+          "nl": [
+            "4 sterren"
+          ],
+          "es": [
+            "4 estrellas"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      },
+      "reviewDeliveryDate": "2019-06-24"
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:ByTheSea",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Am Meer"
+        ],
+        "pt": [
+          "À beira-mar"
+        ],
+        "en": [
+          "By the sea"
+        ],
+        "it": [
+          "In riva al mare"
+        ],
+        "fr": [
+          "Au bord de la mer"
+        ],
+        "nl": [
+          "Aan zee"
+        ],
+        "es": [
+          "A orillas del mar"
+        ]
+      }
+    },
+    {
+      "@id": "kb:DirectAccessToTheBeach",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Direkter Zugang zum Strand"
+        ],
+        "pt": [
+          "Acesso direto à praia"
+        ],
+        "en": [
+          "Direct access to the beach"
+        ],
+        "it": [
+          "Accesso diretto alla spiaggia"
+        ],
+        "fr": [
+          "Accès direct à la plage"
+        ],
+        "nl": [
+          "Directe toegang tot het strand"
+        ],
+        "es": [
+          "Acceso directo a la playa"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/bce5e5e1-b82e-3afc-a6a6-87bbe6db7f43",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/e5ab8029-de77-3b08-ae4d-987d2ef3ac9c",
+          "schema:addressLocality": "Saint-Paul",
+          "schema:postalCode": "97434",
+          "schema:streetAddress": [
+            "3, rue des Argonautes"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97415",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Paul"
+              ],
+              "fr": [
+                "Saint-Paul"
+              ]
+            },
+            "insee": "97415",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/21f06097-eb86-3391-89c4-d1d48507f996",
+        "schema:elevation": "0",
+        "schema:latitude": "-21.095095",
+        "schema:longitude": "55.237711",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "altInsee": [
+        "97415"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/0f051b5c-83d4-35a0-a9a8-dd2a3ee30494",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/e5ab8029-de77-3b08-ae4d-987d2ef3ac9c",
+          "schema:addressLocality": "Saint-Paul",
+          "schema:postalCode": "97434",
+          "schema:streetAddress": [
+            "3, rue des Argonautes"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97415",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Paul"
+              ],
+              "fr": [
+                "Saint-Paul"
+              ]
+            },
+            "insee": "97415",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "info@villavacancesreunion.com"
+      ],
+      "schema:legalName": "Villa Saline",
+      "schema:telephone": [
+        "+33 6 92 86 24 92"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "http://www.villavacancesreunion.com/"
+      ],
+      "siret": "40977568100052"
+    }
+  ],
+  "lastUpdate": "2020-03-24",
+  "lastUpdateDatatourisme": "2022-10-20T23:35:23.126Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/02d02986-dff9-3c5e-88fb-683a623dbba5",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

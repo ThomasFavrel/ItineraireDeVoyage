@@ -1,0 +1,918 @@
+{
+  "@id": "https://data.datatourisme.fr/54/ff7c9088-0520-3f87-8127-b9e62f2a4849",
+  "dc:identifier": "452-meubles-d-abord-les",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Meublés d'Abord (Les)"
+    ]
+  },
+  "allowedPersons": 9,
+  "availableLanguage": [
+    "fr,cpf"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/c96f747e-0631-3a48-addc-244e33cbe13c",
+    "schema:familyName": [
+      "Soubik"
+    ],
+    "schema:givenName": [
+      "Soubik"
+    ],
+    "schema:legalName": "Soubik",
+    "@type": [
+      "schema:Organization",
+      "schema:Person",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/3c97db2f-6811-3bbb-9221-548337e0e971",
+      "schema:legalName": "ADT Réunion",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.fr/e6c5004d-5a75-3124-9c2e-7fea7513264c",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/5e51954c-1295-3c19-928a-ed61c8ebf3e9",
+          "schema:addressLocality": "Saint-Pierre",
+          "schema:postalCode": "97410",
+          "schema:streetAddress": [
+            "18, ruelle Lallemand"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97416",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Pierre"
+              ],
+              "fr": [
+                "Saint-Pierre"
+              ]
+            },
+            "insee": "97416",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "jeanclaude.maitre@sfr.fr"
+      ],
+      "schema:faxNumber": [
+        "0262423621"
+      ],
+      "schema:legalName": "Meublés d'Abord (Les)",
+      "schema:telephone": [
+        "+33 6 92 69 39 21"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasCommunicationContact": [
+    {
+      "@id": "https://data.datatourisme.fr/e6c5004d-5a75-3124-9c2e-7fea7513264c",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/5e51954c-1295-3c19-928a-ed61c8ebf3e9",
+          "schema:addressLocality": "Saint-Pierre",
+          "schema:postalCode": "97410",
+          "schema:streetAddress": [
+            "18, ruelle Lallemand"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97416",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Pierre"
+              ],
+              "fr": [
+                "Saint-Pierre"
+              ]
+            },
+            "insee": "97416",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "jeanclaude.maitre@sfr.fr"
+      ],
+      "schema:faxNumber": [
+        "0262423621"
+      ],
+      "schema:legalName": "Meublés d'Abord (Les)",
+      "schema:telephone": [
+        "+33 6 92 69 39 21"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/e6c5004d-5a75-3124-9c2e-7fea7513264c",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/5e51954c-1295-3c19-928a-ed61c8ebf3e9",
+          "schema:addressLocality": "Saint-Pierre",
+          "schema:postalCode": "97410",
+          "schema:streetAddress": [
+            "18, ruelle Lallemand"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97416",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Pierre"
+              ],
+              "fr": [
+                "Saint-Pierre"
+              ]
+            },
+            "insee": "97416",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "jeanclaude.maitre@sfr.fr"
+      ],
+      "schema:faxNumber": [
+        "0262423621"
+      ],
+      "schema:legalName": "Meublés d'Abord (Les)",
+      "schema:telephone": [
+        "+33 6 92 69 39 21"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasManagementContact": [
+    {
+      "@id": "https://data.datatourisme.fr/e6c5004d-5a75-3124-9c2e-7fea7513264c",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/5e51954c-1295-3c19-928a-ed61c8ebf3e9",
+          "schema:addressLocality": "Saint-Pierre",
+          "schema:postalCode": "97410",
+          "schema:streetAddress": [
+            "18, ruelle Lallemand"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97416",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Pierre"
+              ],
+              "fr": [
+                "Saint-Pierre"
+              ]
+            },
+            "insee": "97416",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "jeanclaude.maitre@sfr.fr"
+      ],
+      "schema:faxNumber": [
+        "0262423621"
+      ],
+      "schema:legalName": "Meublés d'Abord (Les)",
+      "schema:telephone": [
+        "+33 6 92 69 39 21"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:ByTheSea",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Am Meer"
+        ],
+        "pt": [
+          "À beira-mar"
+        ],
+        "en": [
+          "By the sea"
+        ],
+        "it": [
+          "In riva al mare"
+        ],
+        "fr": [
+          "Au bord de la mer"
+        ],
+        "nl": [
+          "Aan zee"
+        ],
+        "es": [
+          "A orillas del mar"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:BotanicalGarden",
+      "@type": [
+        "ParkAndGardenTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Botanischer Garten"
+        ],
+        "pt": [
+          "Jardim botânico"
+        ],
+        "en": [
+          "Botanical garden"
+        ],
+        "it": [
+          "Giardino botanico"
+        ],
+        "fr": [
+          "Jardin botanique"
+        ],
+        "es": [
+          "Jardín botánico"
+        ],
+        "nl": [
+          "Botanische tuin"
+        ]
+      }
+    },
+    {
+      "@id": "kb:ByTheSea",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Am Meer"
+        ],
+        "pt": [
+          "À beira-mar"
+        ],
+        "en": [
+          "By the sea"
+        ],
+        "it": [
+          "In riva al mare"
+        ],
+        "fr": [
+          "Au bord de la mer"
+        ],
+        "nl": [
+          "Aan zee"
+        ],
+        "es": [
+          "A orillas del mar"
+        ]
+      }
+    },
+    {
+      "@id": "kb:ExoticGarden",
+      "@type": [
+        "ParkAndGardenTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Exotischer Garten"
+        ],
+        "pt": [
+          "Jardim exótico"
+        ],
+        "en": [
+          "Exotic garden"
+        ],
+        "it": [
+          "Giardino esotico"
+        ],
+        "fr": [
+          "Jardin exotique"
+        ],
+        "es": [
+          "Jardín exótico"
+        ],
+        "nl": [
+          "Exotische tuin"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Hiking",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Wanderung"
+        ],
+        "pt": [
+          "Caminhada"
+        ],
+        "en": [
+          "Hiking"
+        ],
+        "it": [
+          "Escursione"
+        ],
+        "fr": [
+          "Randonnée"
+        ],
+        "nl": [
+          "Wandelen"
+        ],
+        "es": [
+          "Senderismo"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/43b30f22-1506-32ef-ad72-99a84c82dcbd",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/5e51954c-1295-3c19-928a-ed61c8ebf3e9",
+          "schema:addressLocality": "Saint-Pierre",
+          "schema:postalCode": "97410",
+          "schema:streetAddress": [
+            "18, ruelle Lallemand"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97416",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Pierre"
+              ],
+              "fr": [
+                "Saint-Pierre"
+              ]
+            },
+            "insee": "97416",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/9d243094-ff13-3308-b6e2-c4332ec5f521",
+        "schema:elevation": "22",
+        "schema:latitude": "-21.34396436",
+        "schema:longitude": "55.47997813",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "altInsee": [
+        "97416"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/e6c5004d-5a75-3124-9c2e-7fea7513264c",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/5e51954c-1295-3c19-928a-ed61c8ebf3e9",
+          "schema:addressLocality": "Saint-Pierre",
+          "schema:postalCode": "97410",
+          "schema:streetAddress": [
+            "18, ruelle Lallemand"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97416",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Pierre"
+              ],
+              "fr": [
+                "Saint-Pierre"
+              ]
+            },
+            "insee": "97416",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "jeanclaude.maitre@sfr.fr"
+      ],
+      "schema:faxNumber": [
+        "0262423621"
+      ],
+      "schema:legalName": "Meublés d'Abord (Les)",
+      "schema:telephone": [
+        "+33 6 92 69 39 21"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "lastUpdate": "2019-10-10",
+  "lastUpdateDatatourisme": "2023-03-01T00:55:38.008Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/02d02986-dff9-3c5e-88fb-683a623dbba5",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

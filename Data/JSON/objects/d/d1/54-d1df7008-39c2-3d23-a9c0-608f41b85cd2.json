@@ -1,0 +1,936 @@
+{
+  "@id": "https://data.datatourisme.fr/54/d1df7008-39c2-3d23-a9c0-608f41b85cd2",
+  "dc:identifier": "4173-the-best-briani",
+  "@type": [
+    "schema:FoodEstablishment",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "The Best Briani"
+    ]
+  },
+  "allowedPersons": 50,
+  "availableLanguage": [
+    "fr,cpf"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/c96f747e-0631-3a48-addc-244e33cbe13c",
+    "schema:familyName": [
+      "Soubik"
+    ],
+    "schema:givenName": [
+      "Soubik"
+    ],
+    "schema:legalName": "Soubik",
+    "@type": [
+      "schema:Organization",
+      "schema:Person",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/3c97db2f-6811-3bbb-9221-548337e0e971",
+      "schema:legalName": "ADT Réunion",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.fr/858e358f-ae52-36c0-8e5c-11fe1618c201",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/c266b5b7-fd1a-3bbc-b71b-06273a902a65",
+          "schema:addressLocality": "Saint-Benoît",
+          "schema:postalCode": "97470",
+          "schema:streetAddress": [
+            "4, rue Montfleury"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97410",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Benoît"
+              ],
+              "fr": [
+                "Saint-Benoît"
+              ]
+            },
+            "insee": "97410",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "dineakoonne05@gmail.com"
+      ],
+      "schema:legalName": "The Best Briani",
+      "schema:telephone": [
+        "+33 6 92 34 63 75"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "39804578100034"
+    }
+  ],
+  "hasCommunicationContact": [
+    {
+      "@id": "https://data.datatourisme.fr/858e358f-ae52-36c0-8e5c-11fe1618c201",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/c266b5b7-fd1a-3bbc-b71b-06273a902a65",
+          "schema:addressLocality": "Saint-Benoît",
+          "schema:postalCode": "97470",
+          "schema:streetAddress": [
+            "4, rue Montfleury"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97410",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Benoît"
+              ],
+              "fr": [
+                "Saint-Benoît"
+              ]
+            },
+            "insee": "97410",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "dineakoonne05@gmail.com"
+      ],
+      "schema:legalName": "The Best Briani",
+      "schema:telephone": [
+        "+33 6 92 34 63 75"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "39804578100034"
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/858e358f-ae52-36c0-8e5c-11fe1618c201",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/c266b5b7-fd1a-3bbc-b71b-06273a902a65",
+          "schema:addressLocality": "Saint-Benoît",
+          "schema:postalCode": "97470",
+          "schema:streetAddress": [
+            "4, rue Montfleury"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97410",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Benoît"
+              ],
+              "fr": [
+                "Saint-Benoît"
+              ]
+            },
+            "insee": "97410",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "dineakoonne05@gmail.com"
+      ],
+      "schema:legalName": "The Best Briani",
+      "schema:telephone": [
+        "+33 6 92 34 63 75"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "39804578100034"
+    }
+  ],
+  "hasManagementContact": [
+    {
+      "@id": "https://data.datatourisme.fr/858e358f-ae52-36c0-8e5c-11fe1618c201",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/c266b5b7-fd1a-3bbc-b71b-06273a902a65",
+          "schema:addressLocality": "Saint-Benoît",
+          "schema:postalCode": "97470",
+          "schema:streetAddress": [
+            "4, rue Montfleury"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97410",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Benoît"
+              ],
+              "fr": [
+                "Saint-Benoît"
+              ]
+            },
+            "insee": "97410",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "dineakoonne05@gmail.com"
+      ],
+      "schema:legalName": "The Best Briani",
+      "schema:telephone": [
+        "+33 6 92 34 63 75"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "39804578100034"
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:Downtown",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Im Stadtzentrum"
+        ],
+        "pt": [
+          "No centro da cidade"
+        ],
+        "en": [
+          "Downtown"
+        ],
+        "it": [
+          "In centro città"
+        ],
+        "fr": [
+          "En centre ville"
+        ],
+        "nl": [
+          "In het centrum van de stad"
+        ],
+        "es": [
+          "En el centro de la ciudad"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Downtown",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Im Stadtzentrum"
+        ],
+        "pt": [
+          "No centro da cidade"
+        ],
+        "en": [
+          "Downtown"
+        ],
+        "it": [
+          "In centro città"
+        ],
+        "fr": [
+          "En centre ville"
+        ],
+        "nl": [
+          "In het centrum van de stad"
+        ],
+        "es": [
+          "En el centro de la ciudad"
+        ]
+      }
+    },
+    {
+      "@id": "kb:FrenchCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Französische regionale Spezialitäten"
+        ],
+        "pt": [
+          "Especialidades regionais francesas"
+        ],
+        "en": [
+          "Traditional or regional French cuisine (Lorraine, Alsace, Brittany, Burgundy, ...)"
+        ],
+        "it": [
+          "Specialità regionali francesi"
+        ],
+        "fr": [
+          "Spécialités régionales françaises"
+        ],
+        "nl": [
+          "Regionale Franse specialiteiten"
+        ],
+        "es": [
+          "Especialidades regionales francesas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndianCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Indische Küche"
+        ],
+        "pt": [
+          "Cozinha indiana"
+        ],
+        "en": [
+          "Indian cuisine"
+        ],
+        "it": [
+          "Cucina indiana"
+        ],
+        "fr": [
+          "Cuisine indienne"
+        ],
+        "nl": [
+          "Indische keuken"
+        ],
+        "es": [
+          "Cocina india"
+        ]
+      }
+    },
+    {
+      "@id": "kb:TropicalCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Tropische Küche"
+        ],
+        "pt": [
+          "Cozinha das ilhas"
+        ],
+        "en": [
+          "Tropical cuisine"
+        ],
+        "it": [
+          "Cucina isolana"
+        ],
+        "fr": [
+          "Cuisine des îles"
+        ],
+        "nl": [
+          "Tropische keuken"
+        ],
+        "es": [
+          "Cocina isleña"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/04b4ca8f-ece0-3f19-a102-62f0570b3dd0",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/c266b5b7-fd1a-3bbc-b71b-06273a902a65",
+          "schema:addressLocality": "Saint-Benoît",
+          "schema:postalCode": "97470",
+          "schema:streetAddress": [
+            "4, rue Montfleury"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97410",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Benoît"
+              ],
+              "fr": [
+                "Saint-Benoît"
+              ]
+            },
+            "insee": "97410",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/7bbb0bb0-3b9b-3828-b78d-c70bfa9546ef",
+        "schema:elevation": "0",
+        "schema:latitude": "-21.033042",
+        "schema:longitude": "55.713262",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "altInsee": [
+        "97410"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/858e358f-ae52-36c0-8e5c-11fe1618c201",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/c266b5b7-fd1a-3bbc-b71b-06273a902a65",
+          "schema:addressLocality": "Saint-Benoît",
+          "schema:postalCode": "97470",
+          "schema:streetAddress": [
+            "4, rue Montfleury"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97410",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Saint-Benoît"
+              ],
+              "fr": [
+                "Saint-Benoît"
+              ]
+            },
+            "insee": "97410",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "dineakoonne05@gmail.com"
+      ],
+      "schema:legalName": "The Best Briani",
+      "schema:telephone": [
+        "+33 6 92 34 63 75"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "39804578100034"
+    }
+  ],
+  "lastUpdate": "2022-11-24",
+  "lastUpdateDatatourisme": "2023-01-12T00:38:23.169Z",
+  "providesCuisineOfType": [
+    {
+      "@id": "kb:FrenchCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Französische regionale Spezialitäten"
+        ],
+        "pt": [
+          "Especialidades regionais francesas"
+        ],
+        "en": [
+          "Traditional or regional French cuisine (Lorraine, Alsace, Brittany, Burgundy, ...)"
+        ],
+        "it": [
+          "Specialità regionali francesi"
+        ],
+        "fr": [
+          "Spécialités régionales françaises"
+        ],
+        "nl": [
+          "Regionale Franse specialiteiten"
+        ],
+        "es": [
+          "Especialidades regionales francesas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndianCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Indische Küche"
+        ],
+        "pt": [
+          "Cozinha indiana"
+        ],
+        "en": [
+          "Indian cuisine"
+        ],
+        "it": [
+          "Cucina indiana"
+        ],
+        "fr": [
+          "Cuisine indienne"
+        ],
+        "nl": [
+          "Indische keuken"
+        ],
+        "es": [
+          "Cocina india"
+        ]
+      }
+    },
+    {
+      "@id": "kb:TropicalCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Tropische Küche"
+        ],
+        "pt": [
+          "Cozinha das ilhas"
+        ],
+        "en": [
+          "Tropical cuisine"
+        ],
+        "it": [
+          "Cucina isolana"
+        ],
+        "fr": [
+          "Cuisine des îles"
+        ],
+        "nl": [
+          "Tropische keuken"
+        ],
+        "es": [
+          "Cocina isleña"
+        ]
+      }
+    }
+  ],
+  "reducedMobilityAccess": false
+}

@@ -1,0 +1,804 @@
+{
+  "@id": "https://data.datatourisme.fr/54/39ff6ba4-fc38-3ddc-9563-754767c39a40",
+  "dc:identifier": "1814-avis-reunion-agence-du-port",
+  "@type": [
+    "schema:Product",
+    "PointOfInterest",
+    "Product",
+    "Rental"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Avis Réunion - Agence du Port"
+    ]
+  },
+  "allowedPersons": 0,
+  "availableLanguage": [
+    "fr,en"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/c96f747e-0631-3a48-addc-244e33cbe13c",
+    "schema:familyName": [
+      "Soubik"
+    ],
+    "schema:givenName": [
+      "Soubik"
+    ],
+    "schema:legalName": "Soubik",
+    "@type": [
+      "schema:Organization",
+      "schema:Person",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/3c97db2f-6811-3bbb-9221-548337e0e971",
+      "schema:legalName": "ADT Réunion",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.fr/9d19f081-c270-3ef4-bc05-326b86141b14",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/54e725a9-1a2f-3ab3-9a9b-69869796fb67",
+          "schema:addressLocality": "Le Port",
+          "schema:postalCode": "97420",
+          "schema:streetAddress": [
+            "83, rue Jules Verne - ZI n°2 - BP: 8"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97407",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Le Port"
+              ],
+              "fr": [
+                "Le Port"
+              ]
+            },
+            "insee": "97407",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "port@avisreunion.com"
+      ],
+      "schema:faxNumber": [
+        "0262439513"
+      ],
+      "schema:legalName": "Avis Réunion - Agence du Port",
+      "schema:telephone": [
+        "+33 2 62 31 20 00"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.avisreunion.com/"
+      ]
+    }
+  ],
+  "hasCommunicationContact": [
+    {
+      "@id": "https://data.datatourisme.fr/9d19f081-c270-3ef4-bc05-326b86141b14",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/54e725a9-1a2f-3ab3-9a9b-69869796fb67",
+          "schema:addressLocality": "Le Port",
+          "schema:postalCode": "97420",
+          "schema:streetAddress": [
+            "83, rue Jules Verne - ZI n°2 - BP: 8"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97407",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Le Port"
+              ],
+              "fr": [
+                "Le Port"
+              ]
+            },
+            "insee": "97407",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "port@avisreunion.com"
+      ],
+      "schema:faxNumber": [
+        "0262439513"
+      ],
+      "schema:legalName": "Avis Réunion - Agence du Port",
+      "schema:telephone": [
+        "+33 2 62 31 20 00"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.avisreunion.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/9d19f081-c270-3ef4-bc05-326b86141b14",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/54e725a9-1a2f-3ab3-9a9b-69869796fb67",
+          "schema:addressLocality": "Le Port",
+          "schema:postalCode": "97420",
+          "schema:streetAddress": [
+            "83, rue Jules Verne - ZI n°2 - BP: 8"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97407",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Le Port"
+              ],
+              "fr": [
+                "Le Port"
+              ]
+            },
+            "insee": "97407",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "port@avisreunion.com"
+      ],
+      "schema:faxNumber": [
+        "0262439513"
+      ],
+      "schema:legalName": "Avis Réunion - Agence du Port",
+      "schema:telephone": [
+        "+33 2 62 31 20 00"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.avisreunion.com/"
+      ]
+    }
+  ],
+  "hasManagementContact": [
+    {
+      "@id": "https://data.datatourisme.fr/9d19f081-c270-3ef4-bc05-326b86141b14",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/54e725a9-1a2f-3ab3-9a9b-69869796fb67",
+          "schema:addressLocality": "Le Port",
+          "schema:postalCode": "97420",
+          "schema:streetAddress": [
+            "83, rue Jules Verne - ZI n°2 - BP: 8"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97407",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Le Port"
+              ],
+              "fr": [
+                "Le Port"
+              ]
+            },
+            "insee": "97407",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "port@avisreunion.com"
+      ],
+      "schema:faxNumber": [
+        "0262439513"
+      ],
+      "schema:legalName": "Avis Réunion - Agence du Port",
+      "schema:telephone": [
+        "+33 2 62 31 20 00"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.avisreunion.com/"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:Downtown",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Im Stadtzentrum"
+        ],
+        "pt": [
+          "No centro da cidade"
+        ],
+        "en": [
+          "Downtown"
+        ],
+        "it": [
+          "In centro città"
+        ],
+        "fr": [
+          "En centre ville"
+        ],
+        "nl": [
+          "In het centrum van de stad"
+        ],
+        "es": [
+          "En el centro de la ciudad"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Downtown",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Im Stadtzentrum"
+        ],
+        "pt": [
+          "No centro da cidade"
+        ],
+        "en": [
+          "Downtown"
+        ],
+        "it": [
+          "In centro città"
+        ],
+        "fr": [
+          "En centre ville"
+        ],
+        "nl": [
+          "In het centrum van de stad"
+        ],
+        "es": [
+          "En el centro de la ciudad"
+        ]
+      }
+    },
+    {
+      "@id": "kb:NatureAndEnvironment",
+      "@type": [
+        "CulturalTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Umwelt und Natur"
+        ],
+        "pt": [
+          "Ambiente e natureza"
+        ],
+        "en": [
+          "Nature and environment"
+        ],
+        "it": [
+          "Ambiente e natura"
+        ],
+        "fr": [
+          "Environnement et nature"
+        ],
+        "nl": [
+          "Milieu en natuur"
+        ],
+        "es": [
+          "Medioambiente y naturaleza"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/9ad5cbd2-c253-31bb-9cf7-28a641d0d703",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/54e725a9-1a2f-3ab3-9a9b-69869796fb67",
+          "schema:addressLocality": "Le Port",
+          "schema:postalCode": "97420",
+          "schema:streetAddress": [
+            "83, rue Jules Verne - ZI n°2 - BP: 8"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97407",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Le Port"
+              ],
+              "fr": [
+                "Le Port"
+              ]
+            },
+            "insee": "97407",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/419db335-538b-3091-bcc0-5f98cd7e7fed",
+        "schema:elevation": "0",
+        "schema:latitude": "-20.935292",
+        "schema:longitude": "55.316406",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "altInsee": [
+        "97407"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/9d19f081-c270-3ef4-bc05-326b86141b14",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/54e725a9-1a2f-3ab3-9a9b-69869796fb67",
+          "schema:addressLocality": "Le Port",
+          "schema:postalCode": "97420",
+          "schema:streetAddress": [
+            "83, rue Jules Verne - ZI n°2 - BP: 8"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97407",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Le Port"
+              ],
+              "fr": [
+                "Le Port"
+              ]
+            },
+            "insee": "97407",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "port@avisreunion.com"
+      ],
+      "schema:faxNumber": [
+        "0262439513"
+      ],
+      "schema:legalName": "Avis Réunion - Agence du Port",
+      "schema:telephone": [
+        "+33 2 62 31 20 00"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.avisreunion.com/"
+      ]
+    }
+  ],
+  "lastUpdate": "2021-07-13",
+  "lastUpdateDatatourisme": "2022-06-07T23:25:28.954Z",
+  "reducedMobilityAccess": false
+}

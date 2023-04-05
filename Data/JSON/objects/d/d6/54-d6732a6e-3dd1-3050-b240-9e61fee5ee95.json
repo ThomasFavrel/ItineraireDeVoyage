@@ -1,0 +1,938 @@
+{
+  "@id": "https://data.datatourisme.fr/54/d6732a6e-3dd1-3050-b240-9e61fee5ee95",
+  "dc:identifier": "1442-costa-caffe",
+  "@type": [
+    "schema:FoodEstablishment",
+    "schema:Restaurant",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Costa Caffé"
+    ]
+  },
+  "allowedPersons": 120,
+  "availableLanguage": [
+    "fr,cpf,en"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/c96f747e-0631-3a48-addc-244e33cbe13c",
+    "schema:familyName": [
+      "Soubik"
+    ],
+    "schema:givenName": [
+      "Soubik"
+    ],
+    "schema:legalName": "Soubik",
+    "@type": [
+      "schema:Organization",
+      "schema:Person",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/3c97db2f-6811-3bbb-9221-548337e0e971",
+      "schema:legalName": "ADT Réunion",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.fr/4e00c36a-e1b6-30fa-859f-e2fc40f174b3",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/a4dddee8-e0e6-399a-989d-6049caf9680b",
+          "schema:addressLocality": "Sainte-Marie",
+          "schema:postalCode": "97438",
+          "schema:streetAddress": [
+            "5, rue André Lardy - Centre d'affaires de la Mare"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97418",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Sainte-Marie"
+              ],
+              "fr": [
+                "Sainte-Marie"
+              ]
+            },
+            "insee": "97418",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:faxNumber": [
+        "0262970962"
+      ],
+      "schema:legalName": "Costa Caffé",
+      "schema:telephone": [
+        "+33 2 62 97 09 62"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "50161974600016"
+    }
+  ],
+  "hasCommunicationContact": [
+    {
+      "@id": "https://data.datatourisme.fr/4e00c36a-e1b6-30fa-859f-e2fc40f174b3",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/a4dddee8-e0e6-399a-989d-6049caf9680b",
+          "schema:addressLocality": "Sainte-Marie",
+          "schema:postalCode": "97438",
+          "schema:streetAddress": [
+            "5, rue André Lardy - Centre d'affaires de la Mare"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97418",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Sainte-Marie"
+              ],
+              "fr": [
+                "Sainte-Marie"
+              ]
+            },
+            "insee": "97418",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:faxNumber": [
+        "0262970962"
+      ],
+      "schema:legalName": "Costa Caffé",
+      "schema:telephone": [
+        "+33 2 62 97 09 62"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "50161974600016"
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/4e00c36a-e1b6-30fa-859f-e2fc40f174b3",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/a4dddee8-e0e6-399a-989d-6049caf9680b",
+          "schema:addressLocality": "Sainte-Marie",
+          "schema:postalCode": "97438",
+          "schema:streetAddress": [
+            "5, rue André Lardy - Centre d'affaires de la Mare"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97418",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Sainte-Marie"
+              ],
+              "fr": [
+                "Sainte-Marie"
+              ]
+            },
+            "insee": "97418",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:faxNumber": [
+        "0262970962"
+      ],
+      "schema:legalName": "Costa Caffé",
+      "schema:telephone": [
+        "+33 2 62 97 09 62"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "50161974600016"
+    }
+  ],
+  "hasManagementContact": [
+    {
+      "@id": "https://data.datatourisme.fr/4e00c36a-e1b6-30fa-859f-e2fc40f174b3",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/a4dddee8-e0e6-399a-989d-6049caf9680b",
+          "schema:addressLocality": "Sainte-Marie",
+          "schema:postalCode": "97438",
+          "schema:streetAddress": [
+            "5, rue André Lardy - Centre d'affaires de la Mare"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97418",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Sainte-Marie"
+              ],
+              "fr": [
+                "Sainte-Marie"
+              ]
+            },
+            "insee": "97418",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:faxNumber": [
+        "0262970962"
+      ],
+      "schema:legalName": "Costa Caffé",
+      "schema:telephone": [
+        "+33 2 62 97 09 62"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "50161974600016"
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:CloseToShops",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "In der Nähe von Geschäften"
+        ],
+        "pt": [
+          "Perto de comércio"
+        ],
+        "en": [
+          "Close to shops"
+        ],
+        "it": [
+          "Vicino ai negozi"
+        ],
+        "fr": [
+          "A proximité de commerces"
+        ],
+        "nl": [
+          "Nabij winkels"
+        ],
+        "es": [
+          "Cerca de las tiendas"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:CloseToShops",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "In der Nähe von Geschäften"
+        ],
+        "pt": [
+          "Perto de comércio"
+        ],
+        "en": [
+          "Close to shops"
+        ],
+        "it": [
+          "Vicino ai negozi"
+        ],
+        "fr": [
+          "A proximité de commerces"
+        ],
+        "nl": [
+          "Nabij winkels"
+        ],
+        "es": [
+          "Cerca de las tiendas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:EuropeanCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Europäische Küche"
+        ],
+        "pt": [
+          "Cozinha europeia"
+        ],
+        "en": [
+          "European cuisine"
+        ],
+        "it": [
+          "Cucina europea"
+        ],
+        "fr": [
+          "Cuisine européenne"
+        ],
+        "nl": [
+          "Europese keuken"
+        ],
+        "es": [
+          "Cocina europea"
+        ]
+      }
+    },
+    {
+      "@id": "kb:FrenchCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Französische regionale Spezialitäten"
+        ],
+        "pt": [
+          "Especialidades regionais francesas"
+        ],
+        "en": [
+          "Traditional or regional French cuisine (Lorraine, Alsace, Brittany, Burgundy, ...)"
+        ],
+        "it": [
+          "Specialità regionali francesi"
+        ],
+        "fr": [
+          "Spécialités régionales françaises"
+        ],
+        "nl": [
+          "Regionale Franse specialiteiten"
+        ],
+        "es": [
+          "Especialidades regionales francesas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:TropicalCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Tropische Küche"
+        ],
+        "pt": [
+          "Cozinha das ilhas"
+        ],
+        "en": [
+          "Tropical cuisine"
+        ],
+        "it": [
+          "Cucina isolana"
+        ],
+        "fr": [
+          "Cuisine des îles"
+        ],
+        "nl": [
+          "Tropische keuken"
+        ],
+        "es": [
+          "Cocina isleña"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/7a5c4022-f414-3c57-bdb7-11c0fcb92a78",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/a4dddee8-e0e6-399a-989d-6049caf9680b",
+          "schema:addressLocality": "Sainte-Marie",
+          "schema:postalCode": "97438",
+          "schema:streetAddress": [
+            "5, rue André Lardy - Centre d'affaires de la Mare"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97418",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Sainte-Marie"
+              ],
+              "fr": [
+                "Sainte-Marie"
+              ]
+            },
+            "insee": "97418",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/b476ba84-f36a-300d-82a0-96ac894c94ed",
+        "schema:elevation": "44",
+        "schema:latitude": "-20.89418274",
+        "schema:longitude": "55.53340645",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "altInsee": [
+        "97418"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/4e00c36a-e1b6-30fa-859f-e2fc40f174b3",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/a4dddee8-e0e6-399a-989d-6049caf9680b",
+          "schema:addressLocality": "Sainte-Marie",
+          "schema:postalCode": "97438",
+          "schema:streetAddress": [
+            "5, rue André Lardy - Centre d'affaires de la Mare"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:97418",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Sainte-Marie"
+              ],
+              "fr": [
+                "Sainte-Marie"
+              ]
+            },
+            "insee": "97418",
+            "isPartOfDepartment": {
+              "@id": "kb:France04974",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Réunion"
+                ],
+                "fr": [
+                  "La Réunion"
+                ]
+              },
+              "insee": "974",
+              "isPartOfRegion": {
+                "@id": "kb:France04",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "en": [
+                    "La Réunion"
+                  ],
+                  "fr": [
+                    "La Réunion"
+                  ]
+                },
+                "insee": "04",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:faxNumber": [
+        "0262970962"
+      ],
+      "schema:legalName": "Costa Caffé",
+      "schema:telephone": [
+        "+33 2 62 97 09 62"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "50161974600016"
+    }
+  ],
+  "lastUpdate": "2019-10-10",
+  "lastUpdateDatatourisme": "2022-05-24T23:33:29.162Z",
+  "providesCuisineOfType": [
+    {
+      "@id": "kb:EuropeanCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Europäische Küche"
+        ],
+        "pt": [
+          "Cozinha europeia"
+        ],
+        "en": [
+          "European cuisine"
+        ],
+        "it": [
+          "Cucina europea"
+        ],
+        "fr": [
+          "Cuisine européenne"
+        ],
+        "nl": [
+          "Europese keuken"
+        ],
+        "es": [
+          "Cocina europea"
+        ]
+      }
+    },
+    {
+      "@id": "kb:FrenchCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Französische regionale Spezialitäten"
+        ],
+        "pt": [
+          "Especialidades regionais francesas"
+        ],
+        "en": [
+          "Traditional or regional French cuisine (Lorraine, Alsace, Brittany, Burgundy, ...)"
+        ],
+        "it": [
+          "Specialità regionali francesi"
+        ],
+        "fr": [
+          "Spécialités régionales françaises"
+        ],
+        "nl": [
+          "Regionale Franse specialiteiten"
+        ],
+        "es": [
+          "Especialidades regionales francesas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:TropicalCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Tropische Küche"
+        ],
+        "pt": [
+          "Cozinha das ilhas"
+        ],
+        "en": [
+          "Tropical cuisine"
+        ],
+        "it": [
+          "Cucina isolana"
+        ],
+        "fr": [
+          "Cuisine des îles"
+        ],
+        "nl": [
+          "Tropische keuken"
+        ],
+        "es": [
+          "Cocina isleña"
+        ]
+      }
+    }
+  ],
+  "reducedMobilityAccess": false
+}
