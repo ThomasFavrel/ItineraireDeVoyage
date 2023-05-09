@@ -34,11 +34,12 @@ services:
     restart: always
     depends_on:
       - db_mongo
+      - db_postgre
       - api
     ports:
       - "8000:8000"
     environment:
-      MONGO_URI: mongodb://root:root@db:27017/poi
+      MONGO_URI: mongodb://root:root@db:27017/db_mongo
 
 volumes:
   db_mongo:
