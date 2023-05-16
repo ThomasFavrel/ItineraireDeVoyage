@@ -4,42 +4,55 @@ services:
   db_mongo:
     image: mongo
     restart: always
+    volumes:
+      - ./db/data:/data/db
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: root
-    ports:
-      - "27017:27017"
-    volumes:
-      - db_mongo:/data/db
-
-  db_postgre:
-    image: postgres
-    ports:
-      - "5432:5432"
-    environment:
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=root
-      - POSTGRES_DB=db_postgre
-  api:
-    build: ./api
-    restart: always
-    depends_on:
-      - db_mongo
-      - db_postgre
-    ports:
-      - "5000:5000"
+      MONGO_INITDB_DATABASE: db_mongo
 
   app:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile
     restart: always
+    volumes:
+      - .:/app
     depends_on:
       - db_mongo
-      - db_postgre
-      - api
     ports:
       - "8000:8000"
     environment:
-      MONGO_URI: mongodb://root:root@db:27017/db_mongo
+      - MONGO_URI=mongodb://root:root@localhost:27017/db_mongo
 
-volumes:
-  db_mongo:
+
+
+# version: "3"
+
+# services:
+#   db_mongo:
+#     image: mongo
+#     restart: always
+#     volumes:
+#       - ./data:/data/db
+#     environment:
+#       MONGO_INITDB_ROOT_USERNAME: root
+#       MONGO_INITDB_ROOT_PASSWORD: root
+#       MONGO_INITDB_DATABASE: db_mongo
+#   api:
+#     image: datascientest/fastapi:1.0.0
+#     restart: always
+#     ports:
+#       - "8000:8000"
+#     depends_on:
+#       - db_mongo #fast api à besoin que db soit lancé d'abord
+#     app:
+#       build:
+#         context: .
+#         dockerfile: Dockerfile
+#       restart: always
+#       ports:
+#         - "80:80"
+#       depends_on:
+#         - api
+       
