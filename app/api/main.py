@@ -24,7 +24,7 @@ def get_poi(request: Request):
     collection = db['poi']
 
     # Récupération des 20 premiers POI
-    pois = list(collection.find().limit(5))
+    pois = list(collection.find().limit(10))
 
     # Fermeture de la connexion à MongoDB
     client.close()
