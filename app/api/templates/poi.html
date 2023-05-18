@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Points of Interest</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-top: 20px;
+        }
+        
+        .poi-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        .poi-card {
+            width: 300px;
+            padding: 20px;
+            margin: 10px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 4px;
+        }
+        
+        .poi-card h2 {
+            color: #333;
+            margin-top: 0;
+            font-size: 18px;
+        }
+        
+        .poi-card p {
+            color: #666;
+            margin-top: 8px;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <h1>Points of Interest</h1>
+    <div class="poi-container">
+        {% for poi in pois %}
+        <div class="poi-card">
+            <h2>{{ poi.name }}</h2>
+            <p><strong>ID:</strong> {{ poi.id }}</p>
+            <p><strong>Type:</strong> {{ poi.type }}</p>
+            <p><strong>Description:</strong> {{ poi.Description }}</p>
+            <p><strong>Latitude:</strong> {{ poi.latitude }}</p>
+            <p><strong>Longitude:</strong> {{ poi.longitude }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
