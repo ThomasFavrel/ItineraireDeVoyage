@@ -201,8 +201,6 @@ def main():
 
     max_poi = st.sidebar.selectbox('Nombre de visite', [x for x in range(3, 7)])
 
-    # appOneDay(types, ville, trad_transport[mode_transport], max_poi, df)
-
     try:
         appOneDay(types, ville, trad_transport[mode_transport], max_poi, df)
     except NoRoute:
