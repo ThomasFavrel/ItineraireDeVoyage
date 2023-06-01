@@ -14,6 +14,10 @@ APP_SUBTITLE = 'Itinéraire de vacances 🏁'
 
 df = pd.read_csv("../Data/POI.csv")
 
+class NoRoute(Exception):
+    pass
+
+
 @st.cache_resource
 def calcul_distance(point1: tuple, point2: tuple, moyenLocomtion: str):
     router = Router(moyenLocomtion)
@@ -102,11 +106,11 @@ def print_map(moyenLocomtion: str, coordonneesHotels):
         end = listePoints[optmizePlan[index + 1]]
         status, route = router.doRoute(start, end)
         
-        if status == 'success':
-            route_latLon = list(map(router.nodeLatLon, route))
-            
-        else:
-            router = Router("foot")
+        if status != 'success':
+            raise NoRoute
+
+        route_latLon = list(map(router.nodeLatLon, route))
+
             
         folium.PolyLine(route_latLon, weight=5, opacity=.4).add_to(m)
         folium.Marker(
@@ -197,10 +201,15 @@ def main():
 
     max_poi = st.sidebar.selectbox('Nombre de visite', [x for x in range(3, 7)])
 
+    # appOneDay(types, ville, trad_transport[mode_transport], max_poi, df)
+
     try:
         appOneDay(types, ville, trad_transport[mode_transport], max_poi, df)
+    except NoRoute:
+        st.caption('⚠️ Pas de route trouvée, veuillez selectionner un autre moyen de transport')
     except:
-        st.header('Veuillez selectionner vos critères de vacances 🏝️')
+        st.subheader('Veuillez selectionner vos critères de vacances 🏝️')
+
 
 
 if __name__ == "__main__":
