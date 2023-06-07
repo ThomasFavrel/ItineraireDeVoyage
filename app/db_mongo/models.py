@@ -1,25 +1,31 @@
 from pymongo import MongoClient
 
-class POI:
-    def __init__(self, id, poi_type, last_update, emails, telephones, contact_types, homepage, description, latitude, longitude, city, postal_code, department, region, close, open, valid_from, valid_through):
-        self.id = id
-        self.poi_type = poi_type
-        self.last_update = last_update
-        self.emails = emails
-        self.telephones = telephones
-        self.contact_types = contact_types
-        self.homepage = homepage
-        self.description = description
-        self.latitude = latitude
-        self.longitude = longitude
-        self.city = city
-        self.postal_code = postal_code
-        self.department = department
-        self.region = region
-        self.close = close
-        self.open = open
-        self.valid_from = valid_from
-        self.valid_through = valid_through
+from mongoengine import Document, StringField, DateTimeField, ListField, URLField, FloatField
+
+class POI(Document):
+    # id = StringField(required=False)
+    type = StringField()
+    lastUpdate = DateTimeField()
+    email = ListField(StringField())
+    telephone = ListField(StringField())
+    typeContact = ListField(StringField())
+    homepage = ListField(StringField())
+    Description = StringField()
+    latitude = FloatField()
+    longitude = FloatField()
+    Ville = StringField()
+    CodePostale = StringField()
+    Departement = StringField()
+    Region = StringField()
+    Close = StringField()
+    Open = StringField()
+    validFrom = DateTimeField()
+    validThrough = DateTimeField()
+
+    meta = {
+        'collection': 'POI'
+    }
+
 
 class ThemeUnique:
     def __init__(self, id: str, type: str, label_fr: str):

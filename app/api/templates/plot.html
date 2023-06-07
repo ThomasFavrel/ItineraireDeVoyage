@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Graph of Latitude and Longitude</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        #graph {
+            width: 70%;
+            height: 70%;
+            aspect-ratio: 1 / 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: yellow;
+        }
+    
+            /*Reset CSS*/
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: Avenir, sans-serif;
+    }
+    
+    nav{
+        width: 100%;
+        margin: 0px auto 40px auto;
+        background-color: white;
+        position: sticky;
+        top: 0px;
+    }
+    
+    nav ul{
+        list-style-type: none;
+    }
+    
+    nav li{
+        float: left;
+        width: 25%;/*100% divisé par le nombre d'éléments de menu*/
+        text-align: center;/*Centre le texte dans les éléments de menu*/
+    }
+    
+    /*Evite que le menu n'ait une hauteur nulle*/
+    nav ul::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    nav a{
+        display: block; /*Toute la surface sera cliquable*/
+        text-decoration: none;
+        color: black;
+        border-bottom: 2px solid transparent;/*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
+        padding: 10px 0px;/*Agrandit le menu et espace la bordure du texte*/
+    }
+    
+    nav a:hover{
+        color: orange;
+        border-bottom: 2px solid gold;
+    }
+    
+    .conteneur{
+        margin: 0px 20px;
+        height: 1500px;
+    }
+          </style>
+          
+        </head>
+        <nav>
+          <ul>
+            <li><a class="menu-item" href="/">Accueil</a></li>
+            <li><a class="menu-item" href="/plot">Graphique</a></li>
+            <li><a class="menu-item" href="/poi">POI</a></li>
+          </ul>
+        </nav>
+    </style>
+</head>
+<body>
+    <div id="graph"></div>
+
+    <script>
+        const latitude = {{ context.latitude|safe }};
+        const longitude = {{ context.longitude|safe }};
+
+        const trace = {
+            x: longitude,
+            y: latitude,
+            mode: 'markers',
+            type: 'scatter',
+            marker: {
+                color: 'blue',
+                size: 6
+            }
+        };
+
+        const layout = {
+            title: 'Graph of Latitude and Longitude',
+            xaxis: {
+                title: 'Longitude'
+            },
+            yaxis: {
+                title: 'Latitude'
+            }
+        };
+
+        Plotly.newPlot('graph', [trace], layout);
+    </script>
+</body>
+</html>

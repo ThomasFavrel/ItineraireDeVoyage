@@ -1,45 +1,51 @@
-version: "3"
+version: "3.10"
 
 services:
-  db_mongo:
+
+  postgres:
+    container_name: postgres_container
+    image: postgres
+    volumes:
+      - ../data/postgres:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: username
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: postgres
+      PGDATA: /data/postgres
+    ports: 
+      - "5432:5432"
+    networks:
+      - api_net
+    restart: unless-stopped
+
+  mongo:
+    container_name: mongo 
     image: mongo
-    restart: always
+    volumes:
+      - ../data/mongo:/data/db
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: root
-    ports:
+      MONGO_INITDB_DATABASE: db_mongo
+    ports: 
       - "27017:27017"
-    volumes:
-      - db_mongo:/data/db
-
-  db_postgre:
-    image: postgres
-    ports:
-      - "5432:5432"
-    environment:
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=root
-      - POSTGRES_DB=db_postgre
+    networks: 
+      - api_net
+    restart: unless-stopped
+  
   api:
-    build: ./api
-    restart: always
+    container_name: api
+    image: api
     depends_on:
-      - db_mongo
-      - db_postgre
-    ports:
-      - "5000:5000"
-
-  app:
-    build: .
-    restart: always
-    depends_on:
-      - db_mongo
-      - db_postgre
-      - api
+      - postgres
+      #- mongo
+    networks:
+      - api_net
     ports:
       - "8000:8000"
-    environment:
-      MONGO_URI: mongodb://root:root@db:27017/db_mongo
 
-volumes:
-  db_mongo:
+
+networks:
+  api_net:  
+    external:
+      name: api_net  
