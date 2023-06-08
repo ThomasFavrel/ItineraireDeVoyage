@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ajouter un POI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        label, input, textarea {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ajouter un POI</h1>
+    
+    <form action="/addpoi" method="POST">
+        <label for="id">ID:</label>
+        <input type="text" id="id" name="id" value="{{ poi.id }}" required>
+        
+        <label for="type">Type:</label>
+        <input type="text" id="type" name="type" value="{{ poi.type }}" required>
+        
+        <label for="lastUpdate">Dernière mise à jour:</label>
+        <input type="text" id="lastUpdate" name="lastUpdate" value="{{ poi.lastUpdate }}" required>
+        
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" value="{{ poi.email }}" required>
+        
+        <label for="telephone">Téléphone:</label>
+        <input type="text" id="telephone" name="telephone" value="{{ poi.telephone }}" required>
+        
+        <label for="typeContact">Type de contact:</label>
+        <input type="text" id="typeContact" name="typeContact" value="{{ poi.typeContact }}" required>
+        
+        <label for="homepage">Page d'accueil:</label>
+        <input type="text" id="homepage" name="homepage" value="{{ poi.homepage }}" required>
+        
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" rows="4" cols="50" required>{{ poi.Description }}</textarea>
+        
+        <label for="latitude">Latitude:</label>
+        <input type="text" id="latitude" name="latitude" value="{{ poi.latitude }}" required>
+        
+        <label for="longitude">Longitude:</label>
+        <input type="text" id="longitude" name="longitude" value="{{ poi.longitude }}" required>
+        
+        <label for="Ville">Ville:</label>
+        <input type="text" id="Ville" name="Ville" value="{{ poi.Ville }}" required>
+        
+        <label for="CodePostale">Code Postal:</label>
+        <input type="text" id="CodePostale" name="CodePostale" value="{{ poi.CodePostale }}" required>
+        
+        <label for="Departement">Département:</label>
+        <input type="text" id="Departement" name="Departement" value="{{ poi.Departement }}" required>
+        
+        <label for="Region">Région:</label>
+        <input type="text" id="Region" name="Region" value="{{ poi.Region }}" required>
+        
+        <label for="Close">Fermé:</label>
+        <input type="text" id="Close" name="Close" value="{{ poi.Close }}" required>
+        
+        <label for="Open">Ouvert:</label>
+        <input type="text" id="Open" name="Open" value="{{ poi.Open }}" required>
+        
+        <label for="validFrom">Valide de:</label>
+        <input type="text" id="validFrom" name="validFrom" value="{{ poi.validFrom }}" required>
+        
+        <label for="validThrough">Valide jusqu'à:</label>
+        <input type="text" id="validThrough" name="validThrough" value="{{ poi.validThrough }}" required>
+        
+        <input type="submit" value="Ajouter">
+    </form>
+</body>
+</html>
+

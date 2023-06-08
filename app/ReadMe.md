@@ -5,5 +5,5 @@ pip install --upgrade pip
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py
 
-#test main.py host (http://127.0.0.1:8000/ ça marhe)
-uvicorn main:app --reload
+#test main.py host (http://127.0.0.1:8000/ ça marhe) go to path app/api/
+uvicorn main:api --reload
