@@ -1,25 +1,25 @@
-version: "3.10"
+version: "3.9"
 
 services:
 
   postgres:
-    container_name: postgres
-    image: postgres
-    volumes:
-      - ../data/postgres:/var/lib/postgresql/data
+    container_name: postgres_container
+    image: postgres:latest
+    ports: 
+      - 5432:5432
     environment:
       POSTGRES_USER: username
       POSTGRES_PASSWORD: password
       POSTGRES_DB: postgres
       PGDATA: /data/postgres
-    ports: 
-      - "5432:5432"
+    volumes:
+      - ../data/postgres:/var/lib/postgresql/data
     networks:
-      - api_net
+      - dock_net
     restart: unless-stopped
-
+  
   mongo:
-    container_name: mongo 
+    container_name: mongo_container
     image: mongo:5.0
     volumes:
       - ../data/mongo:/data/db
@@ -29,22 +29,22 @@ services:
     ports: 
       - "27017:27017"
     networks: 
-      - api_net
+      - dock_net
     restart: unless-stopped
 
   api:
-    container_name: apiv2
-    image: api
+    container_name: api_container
+    image: api_image:latest
     depends_on:
       - postgres
-      #- mongo
+      - mongo
     networks:
-      - api_net
+      - dock_net
     ports:
       - "8000:8000"
 
-
 networks:
-  api_net:  
+  dock_net:
     external:
-      name: api_net  
+      name: dock_net 
+
