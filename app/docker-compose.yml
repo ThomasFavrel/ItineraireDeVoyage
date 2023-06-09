@@ -23,9 +23,6 @@ services:
     image: mongo:5.0
     volumes:
       - ../data/mongo:/data/db
-    environment:
-      MONGO_INITDB_ROOT_USERNAME: username
-      MONGO_INITDB_ROOT_PASSWORD: password
     ports: 
       - "27017:27017"
     networks: 
@@ -42,6 +39,16 @@ services:
       - dock_net
     ports:
       - "8000:8000"
+
+  streamlit:
+    container_name: streamlit_container
+    image: streamlit_image:latest
+    depends_on:
+      - api
+    networks:
+      - dock_net
+    ports:
+      - "8501:8501"
 
 networks:
   dock_net:

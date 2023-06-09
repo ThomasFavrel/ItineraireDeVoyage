@@ -3,7 +3,7 @@ from param import database
 from param import path_POI_csv, path_theme_csv, path_theme_unique_csv
 from param import struct_table_POI, struct_table_theme_unique, struct_table_theme
 from postgres import BDDR
-#from map import main
+#from etl import main
 
 import pandas as pd
 import os
@@ -16,7 +16,7 @@ api = FastAPI(
     description =  'Base de données PostgreSQL',
     version = "1.0.1")
 
-@api.get("/")
+@api.get("/init")
 def init():
     BDDR1 = BDDR()
 
@@ -31,6 +31,8 @@ def init():
     BDDR1.query(struct_table_theme)
 
     BDDR1.info()
+
+    #main()
 
     BDDR1.insert_df("poi", path_POI_csv, True)
     BDDR1.insert_df("themeunique", path_theme_unique_csv, True)
