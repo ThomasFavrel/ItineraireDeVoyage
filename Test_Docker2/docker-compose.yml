@@ -1,0 +1,27 @@
+version: '3.3'
+services:
+  pymongo:
+    build: pymongo/
+    volumes:
+    - ./pymongo/:/app
+
+  mongodb:
+    image: mongo:5.0
+    ports:
+    - "27021:27017"
+
+  etl:
+    build: etl/
+    volumes:
+    - ./pymongo/:/app2
+
+  streamlit:
+    build: streamlit/
+    ports:
+    - "8501:8501"
+    depends_on:
+      - etl
+    volumes:
+    - ./:/app2
+    - ./streamlit/:/app3
+    
