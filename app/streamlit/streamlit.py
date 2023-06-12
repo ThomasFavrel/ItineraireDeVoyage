@@ -115,7 +115,7 @@ def str_to_list(string):
             return "https://www.google.com/"
 
 @st.cache_resource
-def print_map(moyenLocomtion: str, coordonneesHotels, df):
+def print_map(moyenLocomtion: str, coordonneesHotels, df, hotelcoord):
     router = Router(moyenLocomtion)
     listePoints = []
     listeCoord = []
@@ -156,7 +156,8 @@ def print_map(moyenLocomtion: str, coordonneesHotels, df):
 
         loca = router.nodeLatLon(start)
         if index < 1:
-            poi = pd.DataFrame([[loca[0], loca[1], "HotelTrade", "Hotel", None, None, None]], columns=['latitude', 'longitude', "type", "nom", "homepage", "email", "telephone"])
+            #poi = pd.DataFrame([[loca[0], loca[1], "HotelTrade", "Hotel", None, None, None]], columns=['latitude', 'longitude', "type", "nom", "homepage", "email", "telephone"])
+            poi = df.loc[(df['latitude'] == hotelcoord[0]) & (df['longitude'] == hotelcoord[1])]
         else:
             poi = df.loc[(df['latitude'] == listeCoord[index][0]) & (df['longitude'] == listeCoord[index][1])]
         print(poi.loc[:, ['latitude', 'longitude', "type", "nom", "homepage", "email", "telephone"]])
@@ -169,22 +170,39 @@ def print_map(moyenLocomtion: str, coordonneesHotels, df):
             color = "lightgray"
             icon = "fa-solid fa-question"
             icon_color = "white"
-            
-        folium.Marker(
-            location = loca, 
-            popup='<a href="{url}" target="_blank">{text}</a>\n{email}\n{phone}'.format(
-                url = poi["homepage"].iloc[0], 
-                text = poi["nom"].iloc[0],
-                email = poi["email"].iloc[0],
-                phone = poi["telephone"].iloc[0]
-            ), 
-            icon = folium.Icon(
-                color = color,
-                icon = icon, 
-                prefix = "fa"
-            ), 
-            tooltip = "Click for more info",
-        ).add_to(m)
+        
+        if poi['homepage'].iloc[0]:
+            folium.Marker(
+                location = loca, 
+                popup='<a href="{url}" target="_blank">{text}</a>\n{email}\n{phone}'.format(
+                    url = poi["homepage"].iloc[0], 
+                    text = poi["nom"].iloc[0],
+                    email = poi["email"].iloc[0],
+                    phone = poi["telephone"].iloc[0]
+                ), 
+                icon = folium.Icon(
+                    color = color,
+                    icon = icon, 
+                    prefix = "fa"
+                ), 
+                tooltip = "Click for more info",
+            ).add_to(m)
+        
+        else:
+            folium.Marker(
+                location = loca, 
+                popup='{text}\n{email}\n{phone}'.format(
+                    text = poi["nom"].iloc[0],
+                    email = poi["email"].iloc[0],
+                    phone = poi["telephone"].iloc[0]
+                ), 
+                icon = folium.Icon(
+                    color = color,
+                    icon = icon, 
+                    prefix = "fa"
+                ), 
+                tooltip = "Click for more info",
+            ).add_to(m)
 
     
     return m
@@ -228,10 +246,10 @@ def appOneDay(types: list, ville: str, modeTransport: str, maxPoi: int, df):
                                       max_poi=maxPoi,
                                       algo='NN',
                                       df=df)
-    
+    hotelcoord = (latHotel, lonHotel)
     total_coord = [(latVille, lonVille)] + listeCoordoneesPoi
     
-    m = print_map(moyenLocomtion=modeTransport, coordonneesHotels=total_coord, df=df)
+    m = print_map(moyenLocomtion=modeTransport, coordonneesHotels=total_coord, df=df, hotelcoord = hotelcoord)
     # st_map = st_folium(m, width=700, height=450)
     return m
 
@@ -303,14 +321,16 @@ def main():
         
 
         if submit_button:
-
+            m = appOneDay(types, ville, trad_transport[mode_transport], max_poi, df)
+            st_map = st_folium(m, width=700, height=450)
+            """
             try:
                 m = appOneDay(types, ville, trad_transport[mode_transport], max_poi, df)
                 st_map = st_folium(m, width=700, height=450)
             except NoRoute:
                 st.caption('⚠️ Pas de route trouvée, veuillez selectionner un autre moyen de transport')
             except:
-                st.subheader('Veuillez selectionner vos critères de vacances 🏝️')
+                st.subheader('Veuillez selectionner vos critères de vacances 🏝️')"""
 
 
 
