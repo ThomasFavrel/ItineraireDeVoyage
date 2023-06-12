@@ -9,7 +9,8 @@ from ortools.constraint_solver import pywrapcp
 from sklearn.neighbors import NearestNeighbors
 from sklearn.neighbors import KNeighborsRegressor
 from geopy.geocoders import Nominatim
-
+from random import randint
+import ast
 import requests
 
 APP_TITLE = "Itinéraire de vacances 🏁"
@@ -17,6 +18,21 @@ APP_SUBTITLE = 'Itinéraire de vacances 🏁'
 
 #df = pd.read_csv("/app/Data/POI.csv")
 
+
+
+dict_ctg_POI = {
+    "Store" : {"color" : "red", "icon" :  "euro", "icon_color" : "white"},
+    "SportsAndLeisurePlace" : {"color" : "blue", "icon" :  "soccer-ball-o", "icon_color" : "white"},
+    "TouristInformationCenter" : {"color" : "green", "icon" :  "info", "icon_color" : "white"},
+    "SportsEvent" : {"color" : "beige", "icon" :  "futbol-o", "icon_color" : "white"},
+    "CulturalSite" : {"color" : "orange", "icon" :  "institution", "icon_color" : "white"},
+    "HotelTrade" : {"color" : "purple", "icon" :  "hotel", "icon_color" : "white"},
+    "FoodEstablishment" : {"color" : "lightred", "icon" :  "cutlery", "icon_color" : "white"},
+    "Restaurant" : {"color" : "lightred", "icon" :  "cutlery", "icon_color" : "white"},
+    "ThemePark" : {"color" : "lightblue", "icon" :  "trophy", "icon_color" : "white"},
+    "Ruins" : {"color" : "cadetblue", "icon" :  "diamond", "icon_color" : "white"},
+    "Museum" : {"color" : "cadetblue", "icon" :  "bank", "icon_color" : "white"}
+}
 
 class NoRoute(Exception):
     pass
@@ -92,19 +108,39 @@ def itineraire_villes(moyenLocomtion: str, *coordonneesHotels: tuple):
     plan_output.append(manager.IndexToNode(index))
     return plan_output
 
+def str_to_list(string):
+        try: 
+            return ast.literal_eval(string)[0]
+        except:
+            return "https://www.google.com/"
+
 @st.cache_resource
-def print_map(moyenLocomtion: str, coordonneesHotels):
+def print_map(moyenLocomtion: str, coordonneesHotels, df):
     router = Router(moyenLocomtion)
     listePoints = []
     listeCoord = []
-    
+
     for hotel in coordonneesHotels:
         listePoints.append(router.findNode(*hotel))
         listeCoord.append(hotel)
     optmizePlan = itineraire_villes(moyenLocomtion, *listeCoord)
-    m = folium.Map(location=(router.nodeLatLon(listePoints[0])),
-                   tiles="OpenStreetMap",
-                   zoom_start=16)
+
+    sw = (41.3149, 8.4045)
+    ne = (43.2, 9.6899)
+
+    m = folium.Map(
+                    location=(router.nodeLatLon(listePoints[0])),
+                    tiles='OpenStreetMap',
+                    min_lat = sw[0], 
+                    max_lat = ne[0], 
+                    min_lon = sw[1], 
+                    max_lon = ne[1], 
+                    max_bounds = [sw, ne],
+                    zoom_start = 16,
+                    min_zoom = 8,
+                    max_zoom = 18
+                    )
+    
     for index in range(len(listePoints)):
         start = listePoints[optmizePlan[index]]
         end = listePoints[optmizePlan[index + 1]]
@@ -115,11 +151,41 @@ def print_map(moyenLocomtion: str, coordonneesHotels):
 
         route_latLon = list(map(router.nodeLatLon, route))
 
-            
+        
         folium.PolyLine(route_latLon, weight=5, opacity=.4).add_to(m)
+
+        loca = router.nodeLatLon(start)
+        if index < 1:
+            poi = pd.DataFrame([[loca[0], loca[1], "HotelTrade", "Hotel", None, None, None]], columns=['latitude', 'longitude', "type", "nom", "homepage", "email", "telephone"])
+        else:
+            poi = df.loc[(df['latitude'] == listeCoord[index][0]) & (df['longitude'] == listeCoord[index][1])]
+        print(poi.loc[:, ['latitude', 'longitude', "type", "nom", "homepage", "email", "telephone"]])
+        if poi["type"].iloc[0] in list(dict_ctg_POI.keys()):
+            color = dict_ctg_POI[poi["type"].iloc[0]]["color"]
+            icon = dict_ctg_POI[poi["type"].iloc[0]]["icon"]
+            icon_color = dict_ctg_POI[poi["type"].iloc[0]]["icon_color"]
+            print(color, icon, icon_color)
+        else:
+            color = "lightgray"
+            icon = "fa-solid fa-question"
+            icon_color = "white"
+            
         folium.Marker(
-        location = router.nodeLatLon(start),
-        popup = index, opacity=.8).add_to(m)
+            location = loca, 
+            popup='<a href="{url}" target="_blank">{text}</a>\n{email}\n{phone}'.format(
+                url = poi["homepage"].iloc[0], 
+                text = poi["nom"].iloc[0],
+                email = poi["email"].iloc[0],
+                phone = poi["telephone"].iloc[0]
+            ), 
+            icon = folium.Icon(
+                color = color,
+                icon = icon, 
+                prefix = "fa"
+            ), 
+            tooltip = "Click for more info",
+        ).add_to(m)
+
     
     return m
 
@@ -165,7 +231,7 @@ def appOneDay(types: list, ville: str, modeTransport: str, maxPoi: int, df):
     
     total_coord = [(latVille, lonVille)] + listeCoordoneesPoi
     
-    m = print_map(moyenLocomtion=modeTransport, coordonneesHotels=total_coord)
+    m = print_map(moyenLocomtion=modeTransport, coordonneesHotels=total_coord, df=df)
     # st_map = st_folium(m, width=700, height=450)
     return m
 
@@ -181,7 +247,7 @@ def find_coord(ville: str):
 
 @st.cache_resource(experimental_allow_widgets=True)
 def request_api():
-    #requests.get('http://api:8000/init')
+    requests.get('http://api:8000/init')
     requests.get('http://api:8000/connect')
     requests.get('http://api:8000/connectDB/db?database=itinerairedevoyage')
     request = requests.get('http://api:8000/read?table=poi')
@@ -195,6 +261,7 @@ def main():
     st.set_page_config(APP_TITLE)
     st.title(APP_TITLE)
     df = request_api()
+
     # Choix des constantes
 
     # def update():
